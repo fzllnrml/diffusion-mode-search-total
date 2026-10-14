@@ -1,0 +1,12 @@
+{
+  "signature": "3d7936be63d18846",
+  "finished_at": "2026-09-11T16:42:06.739787+00:00",
+  "methods": [
+    "ddim",
+    "original_v3f2",
+    "rms_v3f2",
+    "rms_v3f2_merge",
+    "rms_v3f2_mean",
+    "rms_v3f2_every_level"
+  ]
+}

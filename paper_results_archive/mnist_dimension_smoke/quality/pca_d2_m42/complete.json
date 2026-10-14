@@ -1,0 +1,11 @@
+{
+  "signature": "d3f0570a424d0f36",
+  "finished_at": "2026-09-11T20:32:08.843083+00:00",
+  "artifacts": {
+    "quality.json": "760bec1e9fec1bfbc60daf85708b85a618584272aeb49b15a7c44c67d8c9e31c",
+    "arrays.pt": "95005213ddeabc630c91b7de62046a995ea8a3d8bf6343d63ee174851a3c78ce",
+    "sanity.png": "35b1f6f27c3f9548d051bc1a8d7522e88cfde8b7da36c8daa26aadde8c3b65c0",
+    "reconstruction.png": "5bab21640009c1777f2eac49d5ece892ae9ebdb981c999fdabf0e9a1dbd11e53",
+    "resolved_config.json": "125172d55752638edfd2f016ef8542d22a7f66655ff89a740862048afb38c5f8"
+  }
+}

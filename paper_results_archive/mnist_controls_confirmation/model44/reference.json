@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "train_reference_count": 55000,
+    "validation_reference_count": 1024,
+    "test_reference_count": 10000,
+    "train_is_subset": false,
+    "validation_is_subset": true,
+    "k": 5,
+    "pixel_distance_units": "RMS normalized pixels",
+    "feature_distance_units": "L2 frozen features",
+    "test_memorization_audit": true,
+    "test_used_for_tuning": false,
+    "cache_key": "a1f4683a746eff79",
+    "unusually_close_quantile": 0.01
+  },
+  "checkpoint": "6e772a81d4f2a0133c4ed86c30b93d1451b66d09c5cb917d068b872d2dd905a5",
+  "evaluator": "3ae6949a1068d4393f7b9507d2b63daca3d39680d570bc7ec604c9fa1630a538",
+  "cache_sha256": "13f0009182be61b928110a1ded0b8e41f2dd70e394b49c77a307589f62a95712"
+}

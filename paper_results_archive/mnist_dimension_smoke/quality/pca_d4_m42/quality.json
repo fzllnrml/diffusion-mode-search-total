@@ -1,0 +1,191 @@
+{
+  "id": "pca_d4_m42",
+  "representation": "pca",
+  "dimension": 4,
+  "model_seed": 42,
+  "checkpoint": "runs/mnist_dimension_smoke/models/pca_d4_m42/best.pt",
+  "parameter_count": 156,
+  "model_config": {
+    "dim": 4,
+    "T": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "hidden": [
+      8,
+      8
+    ]
+  },
+  "checkpoint_sha256": "77f65f9cd986383f0c3d8b007d29a3936c14e96d9da4f72e9fc21acb856e930d",
+  "representation_sha256": "7964fadf03daaba90d25778cdb03fc4535c29f5b46200151c9badf5916f98bce",
+  "publication_definition_hash": "0de12232d9a259c1",
+  "representation_quality": {
+    "dimension": 4,
+    "representation": "pca",
+    "retained_variance": 0.560569703578949,
+    "validation_reconstruction_rms": 0.49869629740715027,
+    "reconstruction_rms_ci95": [
+      0.4372527622066531,
+      0.5590703563214052
+    ],
+    "validation_per_image_reconstruction_mse": [
+      0.41633591055870056,
+      0.21190452575683594,
+      0.15375658869743347,
+      0.24661484360694885,
+      0.18152877688407898,
+      0.36732709407806396,
+      0.161819189786911,
+      0.250296950340271
+    ],
+    "reconstructed_fraction_outside": 0.061702802777290344,
+    "train_coordinate_rms": 5.145089149475098,
+    "n_train": 16,
+    "n_validation": 8,
+    "rank_estimate": 15,
+    "information_loss_warning": true
+  },
+  "best_training_validation_loss": 1.550941824913025,
+  "validation_by_time": [
+    {
+      "t": 0,
+      "epsilon_mse": 0.9298217296600342,
+      "per_image_mse": [
+        0.5725584030151367,
+        0.7822585105895996,
+        2.190446376800537,
+        0.17402362823486328
+      ],
+      "prefix16_mse": 0.9298217296600342,
+      "n": 4
+    },
+    {
+      "t": 20,
+      "epsilon_mse": 1.0073648691177368,
+      "per_image_mse": [
+        0.46319815516471863,
+        1.3584634065628052,
+        1.5387736558914185,
+        0.6690240502357483
+      ],
+      "prefix16_mse": 1.0073648691177368,
+      "n": 4
+    },
+    {
+      "t": 100,
+      "epsilon_mse": 0.552564799785614,
+      "per_image_mse": [
+        0.7124778032302856,
+        0.7416861653327942,
+        0.4776778221130371,
+        0.2784173786640167
+      ],
+      "prefix16_mse": 0.552564799785614,
+      "n": 4
+    },
+    {
+      "t": 300,
+      "epsilon_mse": 0.753921389579773,
+      "per_image_mse": [
+        0.1428605169057846,
+        1.1120797395706177,
+        0.9077101945877075,
+        0.8530349731445312
+      ],
+      "prefix16_mse": 0.753921389579773,
+      "n": 4
+    },
+    {
+      "t": 500,
+      "epsilon_mse": 1.0211182832717896,
+      "per_image_mse": [
+        0.41856664419174194,
+        0.8942902088165283,
+        2.4976680278778076,
+        0.27394822239875793
+      ],
+      "prefix16_mse": 1.0211182832717896,
+      "n": 4
+    },
+    {
+      "t": 800,
+      "epsilon_mse": 1.5153051614761353,
+      "per_image_mse": [
+        2.1727616786956787,
+        1.7505422830581665,
+        1.0817312002182007,
+        1.0561853647232056
+      ],
+      "prefix16_mse": 1.5153051614761353,
+      "n": 4
+    },
+    {
+      "t": 999,
+      "epsilon_mse": 1.0819557905197144,
+      "per_image_mse": [
+        1.4387260675430298,
+        0.8393809795379639,
+        1.0501492023468018,
+        0.999566912651062
+      ],
+      "prefix16_mse": 1.0819557905197144,
+      "n": 4
+    }
+  ],
+  "sanity_feature_knn_ci95": [
+    608.0656127929688,
+    823.1302490234375
+  ],
+  "diagnostic_epsilon_mse": 0.9802931462015424,
+  "diagnostic_prefix16_mse": 0.9802931462015424,
+  "diagnostic_epsilon_mse_ci95": [
+    0.7282607704401016,
+    1.3111132383346558
+  ],
+  "quality_diagnostic_nfe": 128,
+  "sanity_nfe": 100,
+  "sanity": {
+    "pixel_knn_distance": 9.422235488891602,
+    "feature_knn_distance": 715.597900390625,
+    "representation_knn_rms": 131.8361358642578,
+    "representation_knn_relative_scale": 25.62368392944336,
+    "pixel_support_percentile": 0.0,
+    "feature_support_percentile": 0.0,
+    "representation_support_percentile": 0.0,
+    "classifier_confidence": 1.0,
+    "represented_class_count": 2,
+    "class_entropy": 0.6931471824645996,
+    "decoded_fraction_outside": 0.44451531767845154,
+    "decoded_max_overshoot": 37.077877044677734,
+    "decoded_mean_overshoot": 4.8611955642700195
+  },
+  "reconstructed_real": {
+    "pixel_knn_distance": 0.4234973192214966,
+    "feature_knn_distance": 22.754898071289062,
+    "representation_knn_rms": 3.267634868621826,
+    "representation_knn_relative_scale": 0.6350978016853333,
+    "pixel_support_percentile": 100.0,
+    "feature_support_percentile": 68.75,
+    "representation_support_percentile": 50.0,
+    "classifier_confidence": 0.6367843151092529,
+    "represented_class_count": 2,
+    "class_entropy": 0.6931471824645996,
+    "decoded_fraction_outside": 0.08322703838348389,
+    "decoded_max_overshoot": 0.5048427581787109,
+    "decoded_mean_overshoot": 0.006680575665086508
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3430423736572266,
+      "validation_loss": 1.550941824913025,
+      "epoch_seconds": 2.3152848750032717,
+      "train_objects": 16,
+      "validation_objects": 8
+    }
+  ],
+  "flags": [
+    "retained_variance_below_0.90",
+    "sanity_outside_fraction_above_0.25"
+  ],
+  "interpretation": "Flags are diagnostic annotations. Finite poor-quality models are not excluded."
+}

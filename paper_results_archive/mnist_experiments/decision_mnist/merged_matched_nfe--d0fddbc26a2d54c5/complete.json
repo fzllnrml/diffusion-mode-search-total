@@ -1,0 +1,9 @@
+{
+  "signature": "e10103d6ec6d2fea",
+  "finished_at": "2026-09-11T08:36:43.371912+00:00",
+  "methods": [
+    "original",
+    "ddim_cluster",
+    "matched_cluster"
+  ]
+}

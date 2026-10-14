@@ -1,0 +1,54 @@
+[
+  {
+    "dimension": 2,
+    "representation": "pca",
+    "retained_variance": 0.3486058712005615,
+    "validation_reconstruction_rms": 0.5092182159423828,
+    "reconstruction_rms_ci95": [
+      0.45219660628746666,
+      0.5660047158539179
+    ],
+    "validation_per_image_reconstruction_mse": [
+      0.4180179536342621,
+      0.2134322077035904,
+      0.19485631585121155,
+      0.25055253505706787,
+      0.1986454427242279,
+      0.37683501839637756,
+      0.1638910323381424,
+      0.25819525122642517
+    ],
+    "reconstructed_fraction_outside": 0.048788268119096756,
+    "train_coordinate_rms": 5.7379984855651855,
+    "n_train": 16,
+    "n_validation": 8,
+    "rank_estimate": 15,
+    "information_loss_warning": true
+  },
+  {
+    "dimension": 4,
+    "representation": "pca",
+    "retained_variance": 0.560569703578949,
+    "validation_reconstruction_rms": 0.49869629740715027,
+    "reconstruction_rms_ci95": [
+      0.4372527622066531,
+      0.5590703563214052
+    ],
+    "validation_per_image_reconstruction_mse": [
+      0.41633591055870056,
+      0.21190452575683594,
+      0.15375658869743347,
+      0.24661484360694885,
+      0.18152877688407898,
+      0.36732709407806396,
+      0.161819189786911,
+      0.250296950340271
+    ],
+    "reconstructed_fraction_outside": 0.061702802777290344,
+    "train_coordinate_rms": 5.145089149475098,
+    "n_train": 16,
+    "n_validation": 8,
+    "rank_estimate": 15,
+    "information_loss_warning": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "signature": "3d05f90bef413604",
+  "artifacts": {
+    "resolved_config.json": "bd5aba2d5fd0ad65c39e0709b327993b44bf8d867661c1604e1d27ece24a1e10",
+    "arrays.pt": "e3f82b4d557a008e8145e21308865c62c9fae5435a1e027d4363dcf8206ca62f",
+    "metrics.json": "0e72c1f778acb9119c91aafcf4ce3a51e8d9ff96d4a660478fc261b15b9cf336",
+    "metadata.json": "c775a53ca056fd1075d4f14724add92d1a5ff9528537a6b5f0ba1c49a676a336",
+    "summary.json": "29d9eb3d2751d08508218a9c5807eb0cbc291c12555e2f57640f73e48a78a247",
+    "runtime.json": "331d543ab0eb5bb553431a768b5e82787b0da0f73ee22e8db6ba4c13f36b2aec",
+    "status.json": "86c3ad8f9d034fbf21bca218336537b53879c938bd82b576d77fefca37403579"
+  }
+}

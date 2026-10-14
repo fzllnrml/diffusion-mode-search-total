@@ -1,0 +1,335 @@
+{
+  "signature": "3d05f90bef413604",
+  "context": {
+    "config": {
+      "protocol": "mnist_controls_confirmation_v1",
+      "search_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "population_size": 128,
+      "pool_size": 268,
+      "batch_size": 128,
+      "methods": [
+        "ddim_105",
+        "low_noise_only",
+        "ddim_pool_representatives"
+      ],
+      "diagnostics": [
+        "stability_v2_rms",
+        "stability_v2_ddim"
+      ],
+      "evaluation": {
+        "enabled": true,
+        "data_root": "data/mnist",
+        "download": false,
+        "evaluator_checkpoint": "runs/mnist_evaluator/best.pt",
+        "require_evaluator": true,
+        "knn_k": 5,
+        "train_limit": null,
+        "validation_limit": 1024,
+        "include_test": true,
+        "reference_cache": "runs/mnist_experiments/publication_reference",
+        "unusually_close_quantile": 0.01
+      },
+      "device": "mps",
+      "publication_root": "runs/mnist_experiments/publication_main",
+      "model_seed": 44,
+      "checkpoint": "runs/mnist_seed44/checkpoints/best.pt",
+      "publication_suites": {},
+      "output_root": "runs/mnist_controls_confirmation/model44"
+    },
+    "implementation": "810731dee4cc9c35fa2dc1af235945477f68187b117cd875dfb349b0c270312c",
+    "publication_definition": "0de12232d9a259c1",
+    "publication_implementation": "5808d11d3a2bb255da5caf7fdf23e3709ccb4f8a531498b75417e0db67dd2820",
+    "files": {
+      "runs/mnist_seed44/checkpoints/best.pt": "6e772a81d4f2a0133c4ed86c30b93d1451b66d09c5cb917d068b872d2dd905a5",
+      "runs/mnist_evaluator/best.pt": "3ae6949a1068d4393f7b9507d2b63daca3d39680d570bc7ec604c9fa1630a538",
+      "data/mnist/MNIST/raw/train-images-idx3-ubyte": "ba891046e6505d7aadcbbe25680a0738ad16aec93bde7f9b65e87a2fc25776db",
+      "data/mnist/MNIST/raw/train-labels-idx1-ubyte": "65a50cbbf4e906d70832878ad85ccda5333a97f0f4c3dd2ef09a8a9eef7101c5",
+      "data/mnist/MNIST/raw/t10k-images-idx3-ubyte": "0fa7898d509279e482958e8ce81c8e77db3f2f8254e26661ceb7762c4d494ce7",
+      "data/mnist/MNIST/raw/t10k-labels-idx1-ubyte": "ff7bcfd416de33731a308c3f266cc351222c34898ecbeaf847f06e48f7ec33f2",
+      "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d/metadata.json": "d2a448697dd3927854b8e642d9e29d102c640406155dab4465d60ec244ef7bc2",
+      "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d/resolved_config.yaml": "6807aa849667d1f0200cf22f4234f0eea8156728cbb60d750a1bb44493e92112",
+      "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d/rms_v3f2/arrays.pt": "80582a842ddaa1bbf892601efd7bfa93bc6356b81008e90bdc13f9512054e7d8",
+      "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d/rms_v3f2/summary.json": "58eec9ce41a8ab6bb13c4f84cef29c584ced79b1a0b65e6d179ffe8c47f86b8c",
+      "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d/rms_v3f2/complete.json": "585d6f0bf58283e9bcdf424f7ed1fc5e17044d70f0d07417715867c86ecfa18e",
+      "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d/matched_ddim/arrays.pt": "43628f48b38f2229abc65ccd5a544d8000271bd2d4557eb142d2d278d34120fa",
+      "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d/matched_ddim/summary.json": "f1bb8573b27daa8a400d5b07f9c2dcdc73eac57c5f31a3a4077f9a300feb253a",
+      "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d/matched_ddim/complete.json": "00a816edacd7525299a0ba65b2d16f7bf1651107ef6c45fd1da0596b7e8019fc",
+      "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652/metadata.json": "9da1b3caf3cadd4b98ecd16564f1779321d8a3704dfef9e1444ed14e48f2216d",
+      "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652/resolved_config.yaml": "0417302fbf01b0c4df4ca76d1f00182742336851af5b1ac81f27f26df47259af",
+      "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652/rms_v3f2/arrays.pt": "4b04011dd13006ff6afdad56d2f975e760c299ef0962d19fa39c58a4149e17a7",
+      "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652/rms_v3f2/summary.json": "5a8855df7ed1d6469ffca099e0a72f0468ab4b9cc56d64815a448db21300eaf3",
+      "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652/rms_v3f2/complete.json": "a12a82ce2965bb21c0701aa9d643df6dcafb1e325b98f7c65d33c0263ba43491",
+      "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652/matched_ddim/arrays.pt": "1169eb5ba68f90e50fd253255554dbd82880e6058823e3cd50ee07eb6b1b52e5",
+      "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652/matched_ddim/summary.json": "0a24afb9d5d7f86ab8d34cf28187f1941358dcc7172dc7e7d67e885b5da558e8",
+      "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652/matched_ddim/complete.json": "cff50215481118ca0b1d8388a7014f32de0b79c549b5c2f7d55bb2f3c99f5d41",
+      "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc/metadata.json": "d732138311954922f1a132aaa2077397cb869f7eb5be76cabae87c2428326795",
+      "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc/resolved_config.yaml": "f48b49ceb42996718892ce29ebb1718181e2a27e923999b59baf6d36d0b1fe49",
+      "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc/rms_v3f2/arrays.pt": "78dc656f8be520b99a1aaa6b5c382200ccbf5cd640f26c914505147d45aa488e",
+      "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc/rms_v3f2/summary.json": "32a52bfc558f4f881a3a94bab1d976209904ed9e55a506b68bc545f3c88cf0dc",
+      "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc/rms_v3f2/complete.json": "2f5acb4406642b40a67812958cddf267515dd9a115a4c187dddd72b03cf1bc5a",
+      "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc/matched_ddim/arrays.pt": "91361a2c5754503eef4c401d4828ec9cbda890eb0a5b81ca07b183561f96da61",
+      "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc/matched_ddim/summary.json": "e6471b1aa95acf85ee9b10be9f3975f0a7b6cc51006620c7d5534e41c970c1d2",
+      "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc/matched_ddim/complete.json": "a226461182590720fc112b3f282ff0004a0675bf9c096cd45c3870082e6608ea",
+      "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6/metadata.json": "6943de83bf0bb84ef6be63a935c049b4ce3ba374eebc0bf7b09bed67ed853fbe",
+      "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6/resolved_config.yaml": "2506243f1764972499a7dd9bc3648a2a8992c13d248dc01e6b9f291c48d968c6",
+      "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6/rms_v3f2/arrays.pt": "dbbd2be0aa7c43c1cf0e27d85a84e4415c255699ffecd0c1cd363a9c663b3884",
+      "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6/rms_v3f2/summary.json": "b2f12a837d10ba3013497954087f63e5c7abf08e1fa337a9f1d5aae79f999d8d",
+      "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6/rms_v3f2/complete.json": "0e370b7aa779e32be8c1af8790fdb331aff0bff20d580eb7ef18ec311b95f44d",
+      "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6/matched_ddim/arrays.pt": "b90d5c61c9ce648106d68ec5e39f5a8cc4e31912b36c4d333e8b1b95fc587075",
+      "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6/matched_ddim/summary.json": "e75caccf646dea8fd86da5dc9ef6f2ef5d1211b830ae8025d63cce330ae6f908",
+      "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6/matched_ddim/complete.json": "d9e7115bbdf8b3bf74e7b1688553ed7fe2da7e0e206561268e8089b78ec99319",
+      "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8/metadata.json": "0f1a2ffee451bc7a1d2e8eed2ac11f5f4a5989d0f75af6fff04ad73f39e9c451",
+      "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8/resolved_config.yaml": "2363514617123b4ab7a900c3667a061da31b397e02ec4e201755d915acc57ac4",
+      "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8/rms_v3f2/arrays.pt": "41d98fae77e5a2a5fdca531623e7b7664c21b69685f5675a01dffa9ca11f49cd",
+      "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8/rms_v3f2/summary.json": "5ed602f121ba1a62acac7a0a3f510581b5b1a079201eb57b74d0434510eb3d82",
+      "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8/rms_v3f2/complete.json": "a91e44526b9c827a735f3c32ee3505c7f6ed390c18a4f6a53546743e02e32f3d",
+      "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8/matched_ddim/arrays.pt": "915b0af2ab6ed7749f9aa6d5069fbd2f28489418901cbcf5a0c29ea001e6ad6b",
+      "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8/matched_ddim/summary.json": "f9f821511b75017519dd4f3e8a00be03f0ddd6e1ee51e732f908875e0c80a022",
+      "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8/matched_ddim/complete.json": "9f7d04670e6e73e15178e536652792e3b14851a7d64cdaa45bf82034395a7017"
+    },
+    "source_suites": {
+      "0": "runs/mnist_experiments/publication_main/main_model44--1432941f9cbc2c3d",
+      "1": "runs/mnist_experiments/publication_main/main_model44--dae6f325471fb652",
+      "2": "runs/mnist_experiments/publication_main/main_model44--62be8f29bdf95abc",
+      "3": "runs/mnist_experiments/publication_main/main_model44--b4d0ce7b567cd2a6",
+      "4": "runs/mnist_experiments/publication_main/main_model44--ee105ea2a44bfda8"
+    },
+    "torch": "2.14.0",
+    "numpy": "1.26.4",
+    "device": "mps",
+    "python": "3.12.2"
+  },
+  "jobs": [
+    {
+      "id": "model44_seed0/ddim_105",
+      "model_seed": 44,
+      "search_seed": 0,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed0/low_noise_only",
+      "model_seed": 44,
+      "search_seed": 0,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed0/ddim_pool_representatives",
+      "model_seed": 44,
+      "search_seed": 0,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model44_seed0/stability_v2_rms",
+      "model_seed": 44,
+      "search_seed": 0,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed0/stability_v2_ddim",
+      "model_seed": 44,
+      "search_seed": 0,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed1/ddim_105",
+      "model_seed": 44,
+      "search_seed": 1,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed1/low_noise_only",
+      "model_seed": 44,
+      "search_seed": 1,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed1/ddim_pool_representatives",
+      "model_seed": 44,
+      "search_seed": 1,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model44_seed1/stability_v2_rms",
+      "model_seed": 44,
+      "search_seed": 1,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed1/stability_v2_ddim",
+      "model_seed": 44,
+      "search_seed": 1,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed2/ddim_105",
+      "model_seed": 44,
+      "search_seed": 2,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed2/low_noise_only",
+      "model_seed": 44,
+      "search_seed": 2,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed2/ddim_pool_representatives",
+      "model_seed": 44,
+      "search_seed": 2,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model44_seed2/stability_v2_rms",
+      "model_seed": 44,
+      "search_seed": 2,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed2/stability_v2_ddim",
+      "model_seed": 44,
+      "search_seed": 2,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed3/ddim_105",
+      "model_seed": 44,
+      "search_seed": 3,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed3/low_noise_only",
+      "model_seed": 44,
+      "search_seed": 3,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed3/ddim_pool_representatives",
+      "model_seed": 44,
+      "search_seed": 3,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model44_seed3/stability_v2_rms",
+      "model_seed": 44,
+      "search_seed": 3,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed3/stability_v2_ddim",
+      "model_seed": 44,
+      "search_seed": 3,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed4/ddim_105",
+      "model_seed": 44,
+      "search_seed": 4,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed4/low_noise_only",
+      "model_seed": 44,
+      "search_seed": 4,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model44_seed4/ddim_pool_representatives",
+      "model_seed": 44,
+      "search_seed": 4,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model44_seed4/stability_v2_rms",
+      "model_seed": 44,
+      "search_seed": 4,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model44_seed4/stability_v2_ddim",
+      "model_seed": 44,
+      "search_seed": 4,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    }
+  ]
+}

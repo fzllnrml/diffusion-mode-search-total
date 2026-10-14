@@ -1,0 +1,191 @@
+{
+  "id": "pca_d2_m42",
+  "representation": "pca",
+  "dimension": 2,
+  "model_seed": 42,
+  "checkpoint": "runs/mnist_dimension_smoke/models/pca_d2_m42/best.pt",
+  "parameter_count": 122,
+  "model_config": {
+    "dim": 2,
+    "T": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "hidden": [
+      8,
+      8
+    ]
+  },
+  "checkpoint_sha256": "fa8959a6902f0b5f4d23289741f911fa8650734530ac27b8866948d90dde3d1c",
+  "representation_sha256": "7964fadf03daaba90d25778cdb03fc4535c29f5b46200151c9badf5916f98bce",
+  "publication_definition_hash": "0de12232d9a259c1",
+  "representation_quality": {
+    "dimension": 2,
+    "representation": "pca",
+    "retained_variance": 0.3486058712005615,
+    "validation_reconstruction_rms": 0.5092182159423828,
+    "reconstruction_rms_ci95": [
+      0.45219660628746666,
+      0.5660047158539179
+    ],
+    "validation_per_image_reconstruction_mse": [
+      0.4180179536342621,
+      0.2134322077035904,
+      0.19485631585121155,
+      0.25055253505706787,
+      0.1986454427242279,
+      0.37683501839637756,
+      0.1638910323381424,
+      0.25819525122642517
+    ],
+    "reconstructed_fraction_outside": 0.048788268119096756,
+    "train_coordinate_rms": 5.7379984855651855,
+    "n_train": 16,
+    "n_validation": 8,
+    "rank_estimate": 15,
+    "information_loss_warning": true
+  },
+  "best_training_validation_loss": 1.4088454246520996,
+  "validation_by_time": [
+    {
+      "t": 0,
+      "epsilon_mse": 1.0483906269073486,
+      "per_image_mse": [
+        0.1992393136024475,
+        1.3237861394882202,
+        2.4733738899230957,
+        0.19716325402259827
+      ],
+      "prefix16_mse": 1.0483906269073486,
+      "n": 4
+    },
+    {
+      "t": 20,
+      "epsilon_mse": 1.3472537994384766,
+      "per_image_mse": [
+        0.6755156517028809,
+        2.2766480445861816,
+        1.716871738433838,
+        0.7199795246124268
+      ],
+      "prefix16_mse": 1.3472537994384766,
+      "n": 4
+    },
+    {
+      "t": 100,
+      "epsilon_mse": 0.47785669565200806,
+      "per_image_mse": [
+        0.2607644498348236,
+        0.8738271594047546,
+        0.4425484240055084,
+        0.33428677916526794
+      ],
+      "prefix16_mse": 0.47785669565200806,
+      "n": 4
+    },
+    {
+      "t": 300,
+      "epsilon_mse": 0.8989617228507996,
+      "per_image_mse": [
+        0.02460459992289543,
+        2.608588933944702,
+        0.2755694091320038,
+        0.6870839595794678
+      ],
+      "prefix16_mse": 0.8989617228507996,
+      "n": 4
+    },
+    {
+      "t": 500,
+      "epsilon_mse": 0.568435549736023,
+      "per_image_mse": [
+        0.346192330121994,
+        0.06635333597660065,
+        1.7514798641204834,
+        0.10971656441688538
+      ],
+      "prefix16_mse": 0.568435549736023,
+      "n": 4
+    },
+    {
+      "t": 800,
+      "epsilon_mse": 1.0926933288574219,
+      "per_image_mse": [
+        2.0510995388031006,
+        0.1350139081478119,
+        1.7155945301055908,
+        0.4690653085708618
+      ],
+      "prefix16_mse": 1.0926933288574219,
+      "n": 4
+    },
+    {
+      "t": 999,
+      "epsilon_mse": 1.4961453676223755,
+      "per_image_mse": [
+        2.6491904258728027,
+        1.3448070287704468,
+        1.7872419357299805,
+        0.2033417671918869
+      ],
+      "prefix16_mse": 1.4961453676223755,
+      "n": 4
+    }
+  ],
+  "sanity_feature_knn_ci95": [
+    209.2532958984375,
+    404.2981262207031
+  ],
+  "diagnostic_epsilon_mse": 0.9899624415806362,
+  "diagnostic_prefix16_mse": 0.9899624415806362,
+  "diagnostic_epsilon_mse_ci95": [
+    0.5996762588620186,
+    1.397037833929062
+  ],
+  "quality_diagnostic_nfe": 128,
+  "sanity_nfe": 100,
+  "sanity": {
+    "pixel_knn_distance": 5.418129920959473,
+    "feature_knn_distance": 306.77569580078125,
+    "representation_knn_rms": 106.96715545654297,
+    "representation_knn_relative_scale": 18.64189338684082,
+    "pixel_support_percentile": 0.0,
+    "feature_support_percentile": 0.0,
+    "representation_support_percentile": 0.0,
+    "classifier_confidence": 1.0,
+    "represented_class_count": 2,
+    "class_entropy": 0.6931471824645996,
+    "decoded_fraction_outside": 0.44323980808258057,
+    "decoded_max_overshoot": 24.647979736328125,
+    "decoded_mean_overshoot": 2.6889750957489014
+  },
+  "reconstructed_real": {
+    "pixel_knn_distance": 0.43029046058654785,
+    "feature_knn_distance": 23.033611297607422,
+    "representation_knn_rms": 3.5134687423706055,
+    "representation_knn_relative_scale": 0.6123160719871521,
+    "pixel_support_percentile": 100.0,
+    "feature_support_percentile": 65.625,
+    "representation_support_percentile": 40.625,
+    "classifier_confidence": 0.7397011518478394,
+    "represented_class_count": 2,
+    "class_entropy": 0.6931471824645996,
+    "decoded_fraction_outside": 0.07302296161651611,
+    "decoded_max_overshoot": 0.5051641464233398,
+    "decoded_mean_overshoot": 0.006317306309938431
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.587101697921753,
+      "validation_loss": 1.4088454246520996,
+      "epoch_seconds": 3.7537256670038914,
+      "train_objects": 16,
+      "validation_objects": 8
+    }
+  ],
+  "flags": [
+    "retained_variance_below_0.90",
+    "sanity_outside_fraction_above_0.25"
+  ],
+  "interpretation": "Flags are diagnostic annotations. Finite poor-quality models are not excluded."
+}

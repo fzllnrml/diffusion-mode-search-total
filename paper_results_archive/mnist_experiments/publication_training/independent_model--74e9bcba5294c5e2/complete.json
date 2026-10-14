@@ -1,0 +1,9 @@
+{
+  "signature": "8250095ddbf4fabe",
+  "artifact": "runs/mnist_seed44/checkpoints/best.pt",
+  "artifact_sha256": "6e772a81d4f2a0133c4ed86c30b93d1451b66d09c5cb917d068b872d2dd905a5",
+  "latest_sha256": "46e711df82481d9cb4dcbcc84ae67780716974c9f3c09c8781817c8b2c827e48",
+  "epochs": 30,
+  "finished_at": "2026-09-11T15:42:15.953291+00:00",
+  "last_invocation_wall_seconds": 5832.151250500006
+}

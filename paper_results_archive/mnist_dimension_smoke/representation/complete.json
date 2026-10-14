@@ -1,0 +1,10 @@
+{
+  "signature": "3a223846d3729a00",
+  "finished_at": "2026-09-11T20:31:59.017668+00:00",
+  "artifacts": {
+    "basis.pt": "7964fadf03daaba90d25778cdb03fc4535c29f5b46200151c9badf5916f98bce",
+    "latents.pt": "17a42a4ec9436c6e4daba341860286062e47e9d609c60213f0b482922608398b",
+    "quality.json": "3a5a085f29fc3a07026c2872d4db3e5b60f44fe25a859759254e69cfc5d833f2",
+    "resolved_config.json": "125172d55752638edfd2f016ef8542d22a7f66655ff89a740862048afb38c5f8"
+  }
+}

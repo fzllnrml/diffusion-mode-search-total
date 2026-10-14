@@ -1,0 +1,6 @@
+{
+  "signature": "58c585b2e0109882",
+  "artifact": "runs/mnist_evaluator/best.pt",
+  "artifact_sha256": "3ae6949a1068d4393f7b9507d2b63daca3d39680d570bc7ec604c9fa1630a538",
+  "finished_at": "2026-09-11T06:12:42.246252+00:00"
+}

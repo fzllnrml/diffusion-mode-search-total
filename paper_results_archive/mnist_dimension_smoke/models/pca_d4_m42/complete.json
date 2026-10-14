@@ -1,0 +1,10 @@
+{
+  "signature": "02b9cd79f1443b70",
+  "finished_at": "2026-09-11T20:32:05.680697+00:00",
+  "artifacts": {
+    "best.pt": "77f65f9cd986383f0c3d8b007d29a3936c14e96d9da4f72e9fc21acb856e930d",
+    "latest.pt": "f36cf698b9a9013a4698cba07c7cc5a9ad03daecea00acdf979f084ce6470a84",
+    "history.json": "b6db7363ba71ee744909180bcad9ef3e4ec6585e9c1d0af7c3ac37c5e1a6a18e",
+    "resolved_config.json": "054b62781bc631dded0a7c46f4f8bb0247153e02cb74b713de9eada5bed8dbe9"
+  }
+}

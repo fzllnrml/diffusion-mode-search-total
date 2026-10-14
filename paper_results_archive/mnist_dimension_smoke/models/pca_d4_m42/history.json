@@ -1,0 +1,10 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.3430423736572266,
+    "validation_loss": 1.550941824913025,
+    "epoch_seconds": 2.3152848750032717,
+    "train_objects": 16,
+    "validation_objects": 8
+  }
+]

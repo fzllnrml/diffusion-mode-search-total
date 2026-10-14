@@ -1,0 +1,11 @@
+{
+  "signature": "f68b1be053acb832",
+  "finished_at": "2026-09-11T20:32:14.328347+00:00",
+  "artifacts": {
+    "quality.json": "4a84d37e98f21b5ae187697cd2846e628710393632480c907c67575a06bb745f",
+    "arrays.pt": "a31f65d2780f29ccb14f6b49f76bdf8616d74590fde654d26dd97d394871a96a",
+    "sanity.png": "536a2c58a763c8a68b1d36d7f3ee16b805d6b12b3dd30e325109a395588dfe7d",
+    "reconstruction.png": "e497a13545662f47ed96dbee903742adfde13d2a61354b6d0f77fd2ee1298a7a",
+    "resolved_config.json": "125172d55752638edfd2f016ef8542d22a7f66655ff89a740862048afb38c5f8"
+  }
+}

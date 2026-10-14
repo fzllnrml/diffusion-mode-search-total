@@ -1,0 +1,10 @@
+{
+  "job_wall_seconds": 2.3131567090167664,
+  "nfe": {
+    "selector_neural_nfe": 0,
+    "nfe": 13400,
+    "newly_executed_nfe": 0,
+    "reused_nfe": 13400,
+    "diagnostic_nfe": 0
+  }
+}

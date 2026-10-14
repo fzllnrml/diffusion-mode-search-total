@@ -1,0 +1,11 @@
+{
+  "signature": "a916287337d47f42",
+  "finished_at": "2026-09-11T20:32:11.919387+00:00",
+  "artifacts": {
+    "quality.json": "819f8a0e59cce7b22875346d9aae22371dcb486625aa3cf900dece8a5f29ea1e",
+    "arrays.pt": "eda9866251a0bcb5980595b3bf76b7e90e2a7b37a558b8d1e403ec15fa6f3167",
+    "sanity.png": "99c3280edbc4c64bb5b4508ddbdc92d8fb007f7acc48d8372147edfb78a1a9a8",
+    "reconstruction.png": "9b68dc109d272bc3aa99b6d7a8a841d1d90e01d89b0dc170abc48c82bd726080",
+    "resolved_config.json": "125172d55752638edfd2f016ef8542d22a7f66655ff89a740862048afb38c5f8"
+  }
+}

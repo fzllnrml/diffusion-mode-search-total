@@ -1,0 +1,13 @@
+{
+  "signature": "6ddbf32df6aa75ba",
+  "finished_at": "2026-09-11T16:11:55.938243+00:00",
+  "methods": [
+    "ddim",
+    "ddim_cluster",
+    "original_v3f2",
+    "rms_v3f2",
+    "rms_v3f2_merge",
+    "matched_ddim",
+    "matched_cluster"
+  ]
+}

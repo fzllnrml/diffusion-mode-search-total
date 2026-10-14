@@ -1,0 +1,10 @@
+{
+  "signature": "ac32ae8405aa786b",
+  "finished_at": "2026-09-11T19:08:45.907348+00:00",
+  "methods": [
+    "rms_v3f2",
+    "rms_v3f2_merge",
+    "matched_ddim",
+    "matched_cluster"
+  ]
+}

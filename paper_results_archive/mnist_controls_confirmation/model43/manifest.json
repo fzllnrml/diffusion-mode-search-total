@@ -1,0 +1,335 @@
+{
+  "signature": "05f836ab681a0aa6",
+  "context": {
+    "config": {
+      "protocol": "mnist_controls_confirmation_v1",
+      "search_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "population_size": 128,
+      "pool_size": 268,
+      "batch_size": 128,
+      "methods": [
+        "ddim_105",
+        "low_noise_only",
+        "ddim_pool_representatives"
+      ],
+      "diagnostics": [
+        "stability_v2_rms",
+        "stability_v2_ddim"
+      ],
+      "evaluation": {
+        "enabled": true,
+        "data_root": "data/mnist",
+        "download": false,
+        "evaluator_checkpoint": "runs/mnist_evaluator/best.pt",
+        "require_evaluator": true,
+        "knn_k": 5,
+        "train_limit": null,
+        "validation_limit": 1024,
+        "include_test": true,
+        "reference_cache": "runs/mnist_experiments/publication_reference",
+        "unusually_close_quantile": 0.01
+      },
+      "device": "mps",
+      "publication_root": "runs/mnist_experiments/publication_main",
+      "model_seed": 43,
+      "checkpoint": "runs/mnist_seed43/checkpoints/best.pt",
+      "publication_suites": {},
+      "output_root": "runs/mnist_controls_confirmation/model43"
+    },
+    "implementation": "810731dee4cc9c35fa2dc1af235945477f68187b117cd875dfb349b0c270312c",
+    "publication_definition": "0de12232d9a259c1",
+    "publication_implementation": "5808d11d3a2bb255da5caf7fdf23e3709ccb4f8a531498b75417e0db67dd2820",
+    "files": {
+      "runs/mnist_seed43/checkpoints/best.pt": "2c96d89482918ff7cecc5a41426646d019d11a39327ea49d0618cea13298cbc8",
+      "runs/mnist_evaluator/best.pt": "3ae6949a1068d4393f7b9507d2b63daca3d39680d570bc7ec604c9fa1630a538",
+      "data/mnist/MNIST/raw/train-images-idx3-ubyte": "ba891046e6505d7aadcbbe25680a0738ad16aec93bde7f9b65e87a2fc25776db",
+      "data/mnist/MNIST/raw/train-labels-idx1-ubyte": "65a50cbbf4e906d70832878ad85ccda5333a97f0f4c3dd2ef09a8a9eef7101c5",
+      "data/mnist/MNIST/raw/t10k-images-idx3-ubyte": "0fa7898d509279e482958e8ce81c8e77db3f2f8254e26661ceb7762c4d494ce7",
+      "data/mnist/MNIST/raw/t10k-labels-idx1-ubyte": "ff7bcfd416de33731a308c3f266cc351222c34898ecbeaf847f06e48f7ec33f2",
+      "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3/metadata.json": "3375564bf301740b24837e2e79cb685fd09af644f6d43b2fabb605fbf541d41c",
+      "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3/resolved_config.yaml": "5894120901fae116ca1f4d68d357f8bb0c865e5215ebe8b4b68a35abb3799219",
+      "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3/rms_v3f2/arrays.pt": "880f7d1ec1d5c228da7acf72a777ffac4f8754aa2b12c815953063e08c95c124",
+      "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3/rms_v3f2/summary.json": "d7de1a21f1c69707fe90089ac7ef86c129fa5564354ccae21b1c3fa099d8dbd1",
+      "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3/rms_v3f2/complete.json": "1e83800764119adab10c26bd1e9046ee68bcc6d70f70366bd059c3b77c238712",
+      "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3/matched_ddim/arrays.pt": "7d30c29061f8e1c895d776b168d547764bd5e30422b301eea8f1ba375b6527bc",
+      "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3/matched_ddim/summary.json": "bd3e2b2e8d3b09aa2dd1ead94bcbc974b5882d462fd560a35cb2e71f13dea372",
+      "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3/matched_ddim/complete.json": "953c1278c27c96d6e5d45e9ef08b1f7517f08b4955826a52d6fc49601c4fbe63",
+      "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e/metadata.json": "1b52fe1458c5ca230dae47885e23f7e3382adc8d67588efa39088629aa5ef7a2",
+      "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e/resolved_config.yaml": "a5d753bd5822feb14bd41f1701a720201b578a90d7fb3a4b7ff4347dda213c3a",
+      "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e/rms_v3f2/arrays.pt": "1d6894858d690d3226d3fb3ab14b848ecb85cadaffd802e4d069f90c9258f877",
+      "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e/rms_v3f2/summary.json": "cbff7b589c5088de30701f220afccb0a6aaf4cc7532f2e662537b04f4db6ab84",
+      "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e/rms_v3f2/complete.json": "1b960308fd36c72607fd31ed3fa23976d8489c07e6dcb6dd6617af5bdf61c397",
+      "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e/matched_ddim/arrays.pt": "62c036c48976b31976a43fda4464387877d17b4e20adb5e7dc140fdf04c021d6",
+      "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e/matched_ddim/summary.json": "a47c1cf05646ed91fb2f7ea03c6313e41602cdcaf5132aa19e8ea29b2bdd868d",
+      "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e/matched_ddim/complete.json": "8e1963e8c4b412c43ccdfe5f2bf466746ee9bdc140750ff7e455a10bb71d5025",
+      "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd/metadata.json": "c18c95cfd3fb9c2f579f14dc6b43fcd61c3bec4ca4b3eef76f3a412e2ad190e6",
+      "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd/resolved_config.yaml": "ab8ea78ee56a092a7433d92075715f56f06820b60aba4365d6c6cbbef938cba1",
+      "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd/rms_v3f2/arrays.pt": "e1dd492d18ddab4721b46204766bfeff10037c41832e96aa0989d131adc128bb",
+      "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd/rms_v3f2/summary.json": "1c853cee2ce43fe49284a6caf25f73838778b7074a3a4fb2b6249702ef202c9f",
+      "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd/rms_v3f2/complete.json": "6001cc21827067c5f6f219148ce3f117787545b96757e6a22ba5cfa6d3273783",
+      "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd/matched_ddim/arrays.pt": "548a6b8ca4b482e7ec908a3a9c0cf837e680cc7e4c8d1d8f1e090a90d212d325",
+      "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd/matched_ddim/summary.json": "7be132970a7724049174c7ebce613ca275f01edde47d86c73bc6ae8e8b72d282",
+      "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd/matched_ddim/complete.json": "bc5c849534aa7ed46e03f60368cb13d5b5e81bfc81c26cecc753d972f8dbc41f",
+      "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e/metadata.json": "cbc1eb12ba6a43e2cc97fba5f05f9bbd1c76c7111a13b0e7af9b9ff7e7a56027",
+      "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e/resolved_config.yaml": "11a58e1b27f4385a01a174d3133478d83d8f431d763ac4cc8b2e509f531668e6",
+      "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e/rms_v3f2/arrays.pt": "8c5103e9db2668b6d7fd54f9d464c79a28b2c3946f457f74495c83996a9eca14",
+      "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e/rms_v3f2/summary.json": "d3121e08ee6a2f7058fbdb0f5f1100e0a1ff35596b2d5fffde6b8df07c19e9d1",
+      "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e/rms_v3f2/complete.json": "db835aa517948aa05947a19d35602eafec17c75573dda82d257d685eab6d5d4e",
+      "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e/matched_ddim/arrays.pt": "1b28ddb9abfd2d7cd3f230b5103321dcaa71317481a30f5df7072aa23050beb1",
+      "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e/matched_ddim/summary.json": "cbece4c588144a0143f3224f70c10fd2be17d84fec1ef928013b9085b0af0c2f",
+      "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e/matched_ddim/complete.json": "7b9393144689576bcf383f3d1e8616401b4170045296001fafa0407457cac3bc",
+      "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc/metadata.json": "ab4c944925b29cde7ce13ef6995fed764ffda1cf2f1ab3c6ba2eaaf131c1778d",
+      "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc/resolved_config.yaml": "4aade266833c57f60717ef2da4f670803eabcfe2a334ced2740633af91bdd74e",
+      "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc/rms_v3f2/arrays.pt": "6c6e1231f8d3cf9d3d921888bd1a1599abb92b9a5df0e763076ccc7a3e2d0772",
+      "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc/rms_v3f2/summary.json": "7091b84d5d5a8a32ed8cdb61f37d1fd44dd2454f87b3a648193c805d0cdfd6af",
+      "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc/rms_v3f2/complete.json": "2055d7d53ec3056038ad127a41182b4965be8729b1e5fc4feb2e909a0d7aef18",
+      "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc/matched_ddim/arrays.pt": "cfcf4d19f9d00372ad437bbf8692ea5a0cb9436c562ea91b22d9d9aa9b0825b3",
+      "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc/matched_ddim/summary.json": "2dd1143cf191c12fd22a93f1ef3a90221b1b0e6980a754f1ea99ee35ddbecead",
+      "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc/matched_ddim/complete.json": "5891a0627fcaa9a41e13c122c320898313e72b49655a9531a2fa538322a6528b"
+    },
+    "source_suites": {
+      "0": "runs/mnist_experiments/publication_main/main_model43--62e3dd3f5e23d5a3",
+      "1": "runs/mnist_experiments/publication_main/main_model43--4f2dc0918fcf609e",
+      "2": "runs/mnist_experiments/publication_main/main_model43--08f02bca99e65cfd",
+      "3": "runs/mnist_experiments/publication_main/main_model43--ffe65dee7b24bb3e",
+      "4": "runs/mnist_experiments/publication_main/main_model43--6962541160d284dc"
+    },
+    "torch": "2.14.0",
+    "numpy": "1.26.4",
+    "device": "mps",
+    "python": "3.12.2"
+  },
+  "jobs": [
+    {
+      "id": "model43_seed0/ddim_105",
+      "model_seed": 43,
+      "search_seed": 0,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed0/low_noise_only",
+      "model_seed": 43,
+      "search_seed": 0,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed0/ddim_pool_representatives",
+      "model_seed": 43,
+      "search_seed": 0,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model43_seed0/stability_v2_rms",
+      "model_seed": 43,
+      "search_seed": 0,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed0/stability_v2_ddim",
+      "model_seed": 43,
+      "search_seed": 0,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed1/ddim_105",
+      "model_seed": 43,
+      "search_seed": 1,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed1/low_noise_only",
+      "model_seed": 43,
+      "search_seed": 1,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed1/ddim_pool_representatives",
+      "model_seed": 43,
+      "search_seed": 1,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model43_seed1/stability_v2_rms",
+      "model_seed": 43,
+      "search_seed": 1,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed1/stability_v2_ddim",
+      "model_seed": 43,
+      "search_seed": 1,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed2/ddim_105",
+      "model_seed": 43,
+      "search_seed": 2,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed2/low_noise_only",
+      "model_seed": 43,
+      "search_seed": 2,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed2/ddim_pool_representatives",
+      "model_seed": 43,
+      "search_seed": 2,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model43_seed2/stability_v2_rms",
+      "model_seed": 43,
+      "search_seed": 2,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed2/stability_v2_ddim",
+      "model_seed": 43,
+      "search_seed": 2,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed3/ddim_105",
+      "model_seed": 43,
+      "search_seed": 3,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed3/low_noise_only",
+      "model_seed": 43,
+      "search_seed": 3,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed3/ddim_pool_representatives",
+      "model_seed": 43,
+      "search_seed": 3,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model43_seed3/stability_v2_rms",
+      "model_seed": 43,
+      "search_seed": 3,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed3/stability_v2_ddim",
+      "model_seed": 43,
+      "search_seed": 3,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed4/ddim_105",
+      "model_seed": 43,
+      "search_seed": 4,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed4/low_noise_only",
+      "model_seed": 43,
+      "search_seed": 4,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440
+    },
+    {
+      "id": "model43_seed4/ddim_pool_representatives",
+      "model_seed": 43,
+      "search_seed": 4,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400
+    },
+    {
+      "id": "model43_seed4/stability_v2_rms",
+      "model_seed": 43,
+      "search_seed": 4,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    },
+    {
+      "id": "model43_seed4/stability_v2_ddim",
+      "model_seed": 43,
+      "search_seed": 4,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400
+    }
+  ]
+}

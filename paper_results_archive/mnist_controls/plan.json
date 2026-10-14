@@ -1,0 +1,222 @@
+{
+  "protocol": "mnist_controls_pilot_v1",
+  "jobs": [
+    {
+      "id": "model42_seed0/ddim_105",
+      "model_seed": 42,
+      "search_seed": 0,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 13440,
+      "reuse_from": null
+    },
+    {
+      "id": "model42_seed0/low_noise_only",
+      "model_seed": 42,
+      "search_seed": 0,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440,
+      "reused_nfe": 6400,
+      "newly_executed_nfe": 7040,
+      "reuse_from": "shared inputs dependency"
+    },
+    {
+      "id": "model42_seed0/ddim_pool_representatives",
+      "model_seed": 42,
+      "search_seed": 0,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400,
+      "reused_nfe": 13400,
+      "newly_executed_nfe": 0,
+      "reuse_from": "shared inputs dependency"
+    },
+    {
+      "id": "model42_seed0/stability_v2_rms",
+      "model_seed": 42,
+      "search_seed": 0,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 6400,
+      "reuse_from": null
+    },
+    {
+      "id": "model42_seed0/stability_v2_ddim",
+      "model_seed": 42,
+      "search_seed": 0,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 6400,
+      "reuse_from": null
+    },
+    {
+      "id": "model42_seed1/ddim_105",
+      "model_seed": 42,
+      "search_seed": 1,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 13440,
+      "reuse_from": null
+    },
+    {
+      "id": "model42_seed1/low_noise_only",
+      "model_seed": 42,
+      "search_seed": 1,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440,
+      "reused_nfe": 6400,
+      "newly_executed_nfe": 7040,
+      "reuse_from": "shared inputs dependency"
+    },
+    {
+      "id": "model42_seed1/ddim_pool_representatives",
+      "model_seed": 42,
+      "search_seed": 1,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400,
+      "reused_nfe": 13400,
+      "newly_executed_nfe": 0,
+      "reuse_from": "shared inputs dependency"
+    },
+    {
+      "id": "model42_seed1/stability_v2_rms",
+      "model_seed": 42,
+      "search_seed": 1,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 6400,
+      "reuse_from": null
+    },
+    {
+      "id": "model42_seed1/stability_v2_ddim",
+      "model_seed": 42,
+      "search_seed": 1,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 6400,
+      "reuse_from": null
+    },
+    {
+      "id": "model42_seed2/ddim_105",
+      "model_seed": 42,
+      "search_seed": 2,
+      "method": "ddim_105",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 13440,
+      "reuse_from": null
+    },
+    {
+      "id": "model42_seed2/low_noise_only",
+      "model_seed": 42,
+      "search_seed": 2,
+      "method": "low_noise_only",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13440,
+      "reused_nfe": 6400,
+      "newly_executed_nfe": 7040,
+      "reuse_from": "shared inputs dependency"
+    },
+    {
+      "id": "model42_seed2/ddim_pool_representatives",
+      "model_seed": 42,
+      "search_seed": 2,
+      "method": "ddim_pool_representatives",
+      "kind": "quality",
+      "output_count": 128,
+      "expected_nfe": 13400,
+      "reused_nfe": 13400,
+      "newly_executed_nfe": 0,
+      "reuse_from": "shared inputs dependency"
+    },
+    {
+      "id": "model42_seed2/stability_v2_rms",
+      "model_seed": 42,
+      "search_seed": 2,
+      "method": "stability_v2_rms",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 6400,
+      "reuse_from": null
+    },
+    {
+      "id": "model42_seed2/stability_v2_ddim",
+      "model_seed": 42,
+      "search_seed": 2,
+      "method": "stability_v2_ddim",
+      "kind": "diagnostic",
+      "output_count": 128,
+      "expected_nfe": 6400,
+      "reused_nfe": 0,
+      "newly_executed_nfe": 6400,
+      "reuse_from": null
+    }
+  ],
+  "quality_jobs": 9,
+  "stability_jobs": 6,
+  "dependency_jobs": 3,
+  "dependencies": [
+    "runs/mnist/checkpoints/best.pt",
+    "runs/mnist_evaluator/best.pt",
+    "data/mnist/MNIST/raw/train-images-idx3-ubyte",
+    "data/mnist/MNIST/raw/train-labels-idx1-ubyte",
+    "data/mnist/MNIST/raw/t10k-images-idx3-ubyte",
+    "data/mnist/MNIST/raw/t10k-labels-idx1-ubyte"
+  ],
+  "missing_dependencies": [],
+  "publication_sources": {
+    "0": {
+      "path": "runs/mnist_experiments/publication_main/main_model42--47c77373c1e6bf45",
+      "complete_tensor_bundle": true,
+      "missing": [],
+      "validation": "Metadata presence only; content compatibility is checked before reuse"
+    },
+    "1": {
+      "path": "runs/mnist_experiments/publication_main/main_model42--9aaa1944e59dfd6f",
+      "complete_tensor_bundle": true,
+      "missing": [],
+      "validation": "Metadata presence only; content compatibility is checked before reuse"
+    },
+    "2": {
+      "path": "runs/mnist_experiments/publication_main/main_model42--7e10f0640e1fc673",
+      "complete_tensor_bundle": true,
+      "missing": [],
+      "validation": "Metadata presence only; content compatibility is checked before reuse"
+    }
+  },
+  "fair_controls_and_diagnostic_nfe": 159240,
+  "new_job_nfe": 99840,
+  "dependency_nfe_upper": 0,
+  "total_new_nfe_upper": 99840,
+  "note": "Missing old tensors are optional: regenerate pool and full search by unchanged publication definitions. Source reuse costs are conditional on hash/content validation. No training."
+}

@@ -1,0 +1,9 @@
+{
+  "signature": "1d1793b92510d4f3",
+  "artifact": "runs/mnist_seed43/checkpoints/best.pt",
+  "artifact_sha256": "2c96d89482918ff7cecc5a41426646d019d11a39327ea49d0618cea13298cbc8",
+  "latest_sha256": "90124cfaedef7a1ba3e3aee728bc99d41dd826049bbcf1878f5fc2ff931fc0be",
+  "epochs": 30,
+  "finished_at": "2026-09-11T14:05:03.262494+00:00",
+  "last_invocation_wall_seconds": 5413.161013375
+}

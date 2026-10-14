@@ -1,0 +1,9 @@
+{
+  "job_wall_seconds": 11.524412541009951,
+  "nfe": {
+    "nfe": 13440,
+    "newly_executed_nfe": 13440,
+    "reused_nfe": 0,
+    "diagnostic_nfe": 0
+  }
+}

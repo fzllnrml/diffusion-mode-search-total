@@ -1,0 +1,162 @@
+{
+  "id": "pixel_d784_m42",
+  "representation": "pixel",
+  "dimension": 784,
+  "model_seed": 42,
+  "checkpoint": "runs/mnist/checkpoints/best.pt",
+  "parameter_count": 1181217,
+  "model_config": {
+    "T": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "base_channels": 32,
+    "time_dim": 128
+  },
+  "checkpoint_sha256": "bace789b0c9e848bb68c690eda66ccd5d8530996457344aed59cb8bd76382fd5",
+  "representation_sha256": "identity_pixels",
+  "publication_definition_hash": "0de12232d9a259c1",
+  "representation_quality": {
+    "retained_variance": 1.0,
+    "validation_reconstruction_rms": 0.0,
+    "train_coordinate_rms": 0.9646992087364197,
+    "information_loss_warning": false,
+    "reconstruction_rms_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "best_training_validation_loss": 0.022894519037008284,
+  "validation_by_time": [
+    {
+      "t": 0,
+      "epsilon_mse": 0.2127770632505417,
+      "per_image_mse": [
+        0.30628710985183716,
+        0.17709414660930634,
+        0.19282492995262146,
+        0.17490200698375702
+      ],
+      "prefix16_mse": null,
+      "n": 4
+    },
+    {
+      "t": 20,
+      "epsilon_mse": 0.09831555187702179,
+      "per_image_mse": [
+        0.11888357996940613,
+        0.08586930483579636,
+        0.0803924947977066,
+        0.10811681300401688
+      ],
+      "prefix16_mse": null,
+      "n": 4
+    },
+    {
+      "t": 100,
+      "epsilon_mse": 0.055454373359680176,
+      "per_image_mse": [
+        0.0654851645231247,
+        0.0410049706697464,
+        0.05839479714632034,
+        0.05693257227540016
+      ],
+      "prefix16_mse": null,
+      "n": 4
+    },
+    {
+      "t": 300,
+      "epsilon_mse": 0.02509186789393425,
+      "per_image_mse": [
+        0.03148885816335678,
+        0.01971150003373623,
+        0.027466462925076485,
+        0.021700646728277206
+      ],
+      "prefix16_mse": null,
+      "n": 4
+    },
+    {
+      "t": 500,
+      "epsilon_mse": 0.016784653067588806,
+      "per_image_mse": [
+        0.027284923940896988,
+        0.012923953123390675,
+        0.017272908240556717,
+        0.009656824171543121
+      ],
+      "prefix16_mse": null,
+      "n": 4
+    },
+    {
+      "t": 800,
+      "epsilon_mse": 0.0005066283047199249,
+      "per_image_mse": [
+        0.000858631799928844,
+        0.0003364236035849899,
+        0.0004458047042135149,
+        0.00038565319846384227
+      ],
+      "prefix16_mse": null,
+      "n": 4
+    },
+    {
+      "t": 999,
+      "epsilon_mse": 9.068944200407714e-05,
+      "per_image_mse": [
+        7.35977737349458e-05,
+        0.00010617232328513637,
+        0.00012038594286423177,
+        6.260171358007938e-05
+      ],
+      "prefix16_mse": null,
+      "n": 4
+    }
+  ],
+  "sanity_feature_knn_ci95": [
+    26.845239639282227,
+    33.2944450378418
+  ],
+  "diagnostic_epsilon_mse": 0.05843154674221296,
+  "diagnostic_prefix16_mse": null,
+  "diagnostic_epsilon_mse_ci95": [
+    0.04957346897572279,
+    0.0722443824633956
+  ],
+  "quality_diagnostic_nfe": 128,
+  "sanity_nfe": 100,
+  "sanity": {
+    "pixel_knn_distance": 0.6951737999916077,
+    "feature_knn_distance": 30.069843292236328,
+    "representation_knn_rms": 0.6951737999916077,
+    "representation_knn_relative_scale": 0.7206119298934937,
+    "pixel_support_percentile": 25.0,
+    "feature_support_percentile": 18.75,
+    "representation_support_percentile": 25.0,
+    "classifier_confidence": 0.9331367015838623,
+    "represented_class_count": 2,
+    "class_entropy": 0.6931471824645996,
+    "decoded_fraction_outside": 0.0,
+    "decoded_max_overshoot": 0.0,
+    "decoded_mean_overshoot": 0.0
+  },
+  "reconstructed_real": {
+    "pixel_knn_distance": 0.6522791385650635,
+    "feature_knn_distance": 24.50857925415039,
+    "representation_knn_rms": 0.6522791385650635,
+    "representation_knn_relative_scale": 0.6761476993560791,
+    "pixel_support_percentile": 43.75,
+    "feature_support_percentile": 56.25,
+    "representation_support_percentile": 43.75,
+    "classifier_confidence": 0.9994710683822632,
+    "represented_class_count": 3,
+    "class_entropy": 1.0397207736968994,
+    "decoded_fraction_outside": 0.0,
+    "decoded_max_overshoot": 0.0,
+    "decoded_mean_overshoot": 0.0
+  },
+  "history": [],
+  "flags": [
+    "training_history_unavailable_in_checkpoint"
+  ],
+  "interpretation": "Flags are diagnostic annotations. Finite poor-quality models are not excluded."
+}

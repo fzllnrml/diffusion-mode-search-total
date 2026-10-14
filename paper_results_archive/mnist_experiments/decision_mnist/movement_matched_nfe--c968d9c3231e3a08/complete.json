@@ -1,0 +1,9 @@
+{
+  "signature": "f0f008c3e5007f8c",
+  "finished_at": "2026-09-11T08:33:24.485998+00:00",
+  "methods": [
+    "original",
+    "ddim",
+    "matched_ddim"
+  ]
+}
