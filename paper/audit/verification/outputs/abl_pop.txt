@@ -1,0 +1,28 @@
+===== publication_ablation 18
+methods ['ddim', 'original_v3f2', 'rms_v3f2', 'rms_v3f2_every_level', 'rms_v3f2_mean', 'rms_v3f2_merge'] P [128] models [42] seeds [0, 1, 2]
+eval hash {'13cb047d087d6e52'} def hash {'0de12232d9a259c1'}
+P 128 ddim                   n=3 pix=0.4039 feat=9.466 psup=24.7 fsup=22.3 cls=10.00 cand=128.0 nfe=6400 conf=0.917
+P 128 original_v3f2          n=3 pix=0.3997 feat=9.385 psup=25.9 fsup=23.0 cls=10.00 cand=128.0 nfe=13440 conf=0.918
+P 128 rms_v3f2               n=3 pix=0.3408 feat=7.708 psup=46.1 fsup=42.4 cls=10.00 cand=128.0 nfe=13440 conf=0.957
+P 128 rms_v3f2_every_level   n=3 pix=0.2471 feat=4.193 psup=69.7 fsup=80.4 cls=1.00 cand=1.0 nfe=7178 conf=1.000
+P 128 rms_v3f2_mean          n=3 pix=0.3512 feat=8.955 psup=44.8 fsup=26.0 cls=9.67 cand=40.7 nfe=13440 conf=0.879
+P 128 rms_v3f2_merge         n=3 pix=0.3601 feat=8.193 psup=40.1 fsup=39.1 cls=10.00 cand=40.7 nfe=13440 conf=0.945
+===== publication_population 48
+methods ['matched_cluster', 'matched_ddim', 'rms_v3f2', 'rms_v3f2_merge'] P [32, 64, 128, 256] models [42] seeds [0, 1, 2]
+eval hash {'13cb047d087d6e52'} def hash {'0de12232d9a259c1'}
+P  32 matched_cluster        n=3 pix=0.4274 feat=9.992 psup=20.1 fsup=19.1 cls=9.33 cand=32.0 nfe=3350 conf=0.916
+P  32 matched_ddim           n=3 pix=0.4047 feat=9.480 psup=24.8 fsup=22.9 cls=10.00 cand=67.0 nfe=3350 conf=0.918
+P  32 rms_v3f2               n=3 pix=0.3563 feat=8.230 psup=41.0 fsup=36.3 cls=9.67 cand=32.0 nfe=3360 conf=0.949
+P  32 rms_v3f2_merge         n=3 pix=0.3712 feat=8.449 psup=37.8 fsup=35.5 cls=8.33 cand=15.7 nfe=3360 conf=0.942
+P  64 matched_cluster        n=3 pix=0.4264 feat=10.043 psup=19.6 fsup=19.4 cls=9.67 cand=52.3 nfe=6700 conf=0.914
+P  64 matched_ddim           n=3 pix=0.4036 feat=9.459 psup=24.7 fsup=22.5 cls=10.00 cand=134.0 nfe=6700 conf=0.915
+P  64 rms_v3f2               n=3 pix=0.3498 feat=7.879 psup=43.0 fsup=40.1 cls=10.00 cand=64.0 nfe=6720 conf=0.949
+P  64 rms_v3f2_merge         n=3 pix=0.3651 feat=8.078 psup=38.9 fsup=38.4 cls=9.33 cand=25.7 nfe=6720 conf=0.944
+P 128 matched_cluster        n=3 pix=0.4366 feat=10.191 psup=17.8 fsup=18.7 cls=10.00 cand=93.3 nfe=13400 conf=0.925
+P 128 matched_ddim           n=3 pix=0.4078 feat=9.518 psup=23.6 fsup=22.0 cls=10.00 cand=268.0 nfe=13400 conf=0.921
+P 128 rms_v3f2               n=3 pix=0.3408 feat=7.708 psup=46.1 fsup=42.4 cls=10.00 cand=128.0 nfe=13440 conf=0.957
+P 128 rms_v3f2_merge         n=3 pix=0.3601 feat=8.193 psup=40.1 fsup=39.1 cls=10.00 cand=40.7 nfe=13440 conf=0.945
+P 256 matched_cluster        n=3 pix=0.4354 feat=10.139 psup=19.1 fsup=19.1 cls=10.00 cand=163.7 nfe=26850 conf=0.916
+P 256 matched_ddim           n=3 pix=0.4073 feat=9.533 psup=24.1 fsup=22.2 cls=10.00 cand=537.0 nfe=26850 conf=0.920
+P 256 rms_v3f2               n=3 pix=0.3445 feat=7.869 psup=44.7 fsup=41.1 cls=10.00 cand=256.0 nfe=26880 conf=0.957
+P 256 rms_v3f2_merge         n=3 pix=0.3684 feat=8.441 psup=37.2 fsup=36.3 cls=10.00 cand=68.7 nfe=26880 conf=0.951

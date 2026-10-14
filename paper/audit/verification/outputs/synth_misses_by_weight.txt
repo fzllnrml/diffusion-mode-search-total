@@ -1,0 +1,6 @@
+v3f2_exact 10 missed 3 of 405 median_w_missed 0.0082 max_w_missed 0.011 median_w_hit 0.1619 frac_missed_w<0.05 1.0
+v3f2_exact 30 missed 15 of 405 median_w_missed 0.0068 max_w_missed 0.027 median_w_hit 0.165 frac_missed_w<0.05 1.0
+v3f2_exact 50 missed 18 of 405 median_w_missed 0.0034 max_w_missed 0.024 median_w_hit 0.174 frac_missed_w<0.05 1.0
+v3f2_learned 10 missed 57 of 405 median_w_missed 0.0168 max_w_missed 0.498 median_w_hit 0.1896 frac_missed_w<0.05 0.58
+v3f2_learned 30 missed 33 of 405 median_w_missed 0.0142 max_w_missed 0.041 median_w_hit 0.1749 frac_missed_w<0.05 1.0
+v3f2_learned 50 missed 23 of 405 median_w_missed 0.0041 max_w_missed 0.048 median_w_hit 0.177 frac_missed_w<0.05 1.0

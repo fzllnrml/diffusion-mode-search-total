@@ -1,0 +1,150 @@
+pilot jobs 12 conf jobs 40 incomplete 0
+pub consistency mismatches 0
+===== PILOT m42 s0-2
+ddim                       n=3 pixel_knn=0.4039±0.0054 feature_k=9.4656±0.2153 pixel_sup=24.6915±1.4111 feature_s=22.3376±0.9514 class_cov=10.0000±0.0000 class_ent=2.2442±0.0217 output_co=128.0000±0.0000 nfe=6400.0000±0.0000
+matched_ddim               n=3 pixel_knn=0.4078±0.0045 feature_k=9.5185±0.2038 pixel_sup=23.6208±1.4541 feature_s=22.0005±2.0078 class_cov=10.0000±0.0000 class_ent=2.2516±0.0120 output_co=268.0000±0.0000 nfe=13400.0000±0.0000
+ddim_105                   n=3 pixel_knn=0.4045±0.0054 feature_k=9.4328±0.2262 pixel_sup=24.5511±1.4021 feature_s=22.7409±1.4658 class_cov=10.0000±0.0000 class_ent=2.2530±0.0094 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+low_noise_only             n=3 pixel_knn=0.4079±0.0055 feature_k=9.5242±0.2216 pixel_sup=23.5191±1.3648 feature_s=22.0525±1.0408 class_cov=10.0000±0.0000 class_ent=2.2407±0.0261 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+ddim_pool_representatives  n=3 pixel_knn=0.4379±0.0050 feature_k=10.1983±0.0438 pixel_sup=17.1079±1.7096 feature_s=17.5868±0.2983 class_cov=10.0000±0.0000 class_ent=2.1612±0.0494 output_co=128.0000±0.0000 nfe=13400.0000±0.0000
+rms_v3f2                   n=3 pixel_knn=0.3408±0.0058 feature_k=7.7085±0.2436 pixel_sup=46.0581±2.5193 feature_s=42.4179±2.3202 class_cov=10.0000±0.0000 class_ent=2.2576±0.0212 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+   rms - ddim                       pixel_knn_mean               mean=-0.06314 min=-0.06350 max=-0.06243 favorable=3/3
+   rms - ddim                       feature_knn_mean             mean=-1.75712 min=-1.83957 max=-1.61940 favorable=3/3
+   rms - ddim                       pixel_support_percentile     mean=+21.36663 min=+20.57877 max=+22.72797 favorable=3/3
+   rms - ddim                       feature_support_percentile   mean=+20.08031 min=+18.87589 max=+21.95663 favorable=3/3
+   rms - ddim                       class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/3
+   rms - ddim                       class_entropy                mean=+0.01338 min=+0.00768 max=+0.02048 favorable=3/3
+   rms - matched_ddim               pixel_knn_mean               mean=-0.06707 min=-0.07198 max=-0.06209 favorable=3/3
+   rms - matched_ddim               feature_knn_mean             mean=-1.81000 min=-2.03530 max=-1.48045 favorable=3/3
+   rms - matched_ddim               pixel_support_percentile     mean=+22.43736 min=+20.64183 max=+24.90772 favorable=3/3
+   rms - matched_ddim               feature_support_percentile   mean=+20.41744 min=+17.47367 max=+23.13653 favorable=3/3
+   rms - matched_ddim               class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/3
+   rms - matched_ddim               class_entropy                mean=+0.00602 min=-0.02169 max=+0.03360 favorable=2/3
+   rms - ddim_105                   pixel_knn_mean               mean=-0.06374 min=-0.06446 max=-0.06278 favorable=3/3
+   rms - ddim_105                   feature_knn_mean             mean=-1.72429 min=-1.81096 max=-1.59784 favorable=3/3
+   rms - ddim_105                   pixel_support_percentile     mean=+21.50701 min=+20.65582 max=+22.81952 favorable=3/3
+   rms - ddim_105                   feature_support_percentile   mean=+19.67697 min=+18.49823 max=+21.00830 favorable=3/3
+   rms - ddim_105                   class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/3
+   rms - ddim_105                   class_entropy                mean=+0.00466 min=-0.01460 max=+0.02048 favorable=2/3
+   rms - low_noise_only             pixel_knn_mean               mean=-0.06719 min=-0.06752 max=-0.06679 favorable=3/3
+   rms - low_noise_only             feature_knn_mean             mean=-1.81568 min=-1.91343 max=-1.66139 favorable=3/3
+   rms - low_noise_only             pixel_support_percentile     mean=+22.53901 min=+21.77658 max=+24.05319 favorable=3/3
+   rms - low_noise_only             feature_support_percentile   mean=+20.36540 min=+19.11316 max=+22.18475 favorable=3/3
+   rms - low_noise_only             class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/3
+   rms - low_noise_only             class_entropy                mean=+0.01696 min=+0.00485 max=+0.02776 favorable=3/3
+   rms - ddim_pool_representatives  pixel_knn_mean               mean=-0.09715 min=-0.10091 max=-0.09187 favorable=3/3
+   rms - ddim_pool_representatives  feature_knn_mean             mean=-2.48984 min=-2.72733 max=-2.32924 favorable=3/3
+   rms - ddim_pool_representatives  pixel_support_percentile     mean=+28.95025 min=+26.50757 max=+30.26505 favorable=3/3
+   rms - ddim_pool_representatives  feature_support_percentile   mean=+24.83114 min=+23.20175 max=+27.12784 favorable=3/3
+   rms - ddim_pool_representatives  class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/3
+   rms - ddim_pool_representatives  class_entropy                mean=+0.09643 min=+0.02489 max=+0.16216 favorable=3/3
+===== CONFIRMATION m43/44 s0-4
+ddim                       n=10 pixel_knn=0.3751±0.0054 feature_k=8.9418±0.1950 pixel_sup=33.4434±1.9640 feature_s=27.4994±1.9544 class_cov=10.0000±0.0000 class_ent=2.2564±0.0198 output_co=128.0000±0.0000 nfe=6400.0000±0.0000
+matched_ddim               n=10 pixel_knn=0.3801±0.0061 feature_k=9.0733±0.1618 pixel_sup=31.8674±2.1167 feature_s=26.4494±1.7958 class_cov=10.0000±0.0000 class_ent=2.2688±0.0146 output_co=268.0000±0.0000 nfe=13400.0000±0.0000
+ddim_105                   n=10 pixel_knn=0.3750±0.0053 feature_k=8.9065±0.1848 pixel_sup=33.4970±1.9338 feature_s=27.8703±1.9000 class_cov=10.0000±0.0000 class_ent=2.2568±0.0198 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+low_noise_only             n=10 pixel_knn=0.3735±0.0052 feature_k=8.9717±0.2002 pixel_sup=34.0289±1.9244 feature_s=27.3932±1.9207 class_cov=10.0000±0.0000 class_ent=2.2550±0.0232 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+ddim_pool_representatives  n=10 pixel_knn=0.4159±0.0036 feature_k=9.7426±0.1626 pixel_sup=21.6443±0.7466 feature_s=21.2518±1.5776 class_cov=10.0000±0.0000 class_ent=2.1990±0.0183 output_co=128.0000±0.0000 nfe=13400.0000±0.0000
+rms_v3f2                   n=10 pixel_knn=0.3107±0.0045 feature_k=7.0467±0.1384 pixel_sup=55.4630±1.4665 feature_s=49.6884±1.6236 class_cov=10.0000±0.0000 class_ent=2.2515±0.0153 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+   rms - ddim                       pixel_knn_mean               mean=-0.06435 min=-0.06711 max=-0.05950 favorable=10/10
+   rms - ddim                       feature_knn_mean             mean=-1.89509 min=-2.34729 max=-1.58689 favorable=10/10
+   rms - ddim                       pixel_support_percentile     mean=+22.01962 min=+20.81146 max=+23.29178 favorable=10/10
+   rms - ddim                       feature_support_percentile   mean=+22.18903 min=+19.55872 max=+27.24991 favorable=10/10
+   rms - ddim                       class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/10
+   rms - ddim                       class_entropy                mean=-0.00495 min=-0.02767 max=+0.00803 favorable=4/10
+   rms - matched_ddim               pixel_knn_mean               mean=-0.06935 min=-0.07678 max=-0.06396 favorable=10/10
+   rms - matched_ddim               feature_knn_mean             mean=-2.02661 min=-2.45330 max=-1.70098 favorable=10/10
+   rms - matched_ddim               pixel_support_percentile     mean=+23.59555 min=+21.28784 max=+26.18446 favorable=10/10
+   rms - matched_ddim               feature_support_percentile   mean=+23.23899 min=+19.79408 max=+28.00005 favorable=10/10
+   rms - matched_ddim               class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/10
+   rms - matched_ddim               class_entropy                mean=-0.01735 min=-0.04647 max=-0.00135 favorable=0/10
+   rms - ddim_105                   pixel_knn_mean               mean=-0.06430 min=-0.06626 max=-0.06012 favorable=10/10
+   rms - ddim_105                   feature_knn_mean             mean=-1.85975 min=-2.26401 max=-1.56118 favorable=10/10
+   rms - ddim_105                   pixel_support_percentile     mean=+21.96598 min=+20.82291 max=+23.14491 favorable=10/10
+   rms - ddim_105                   feature_support_percentile   mean=+21.81812 min=+19.19174 max=+26.58310 favorable=10/10
+   rms - ddim_105                   class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/10
+   rms - ddim_105                   class_entropy                mean=-0.00538 min=-0.02586 max=+0.00803 favorable=4/10
+   rms - low_noise_only             pixel_knn_mean               mean=-0.06283 min=-0.06507 max=-0.05828 favorable=10/10
+   rms - low_noise_only             feature_knn_mean             mean=-1.92501 min=-2.38293 max=-1.59033 favorable=10/10
+   rms - low_noise_only             pixel_support_percentile     mean=+21.43406 min=+20.33615 max=+22.70088 favorable=10/10
+   rms - low_noise_only             feature_support_percentile   mean=+22.29523 min=+19.39163 max=+27.20718 favorable=10/10
+   rms - low_noise_only             class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/10
+   rms - low_noise_only             class_entropy                mean=-0.00350 min=-0.02767 max=+0.01740 favorable=5/10
+   rms - ddim_pool_representatives  pixel_knn_mean               mean=-0.10516 min=-0.11332 max=-0.09680 favorable=10/10
+   rms - ddim_pool_representatives  feature_knn_mean             mean=-2.69590 min=-3.08113 max=-2.33423 favorable=10/10
+   rms - ddim_pool_representatives  pixel_support_percentile     mean=+33.81866 min=+31.23856 max=+35.93826 favorable=10/10
+   rms - ddim_pool_representatives  feature_support_percentile   mean=+28.43666 min=+25.63934 max=+32.44705 favorable=10/10
+   rms - ddim_pool_representatives  class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/10
+   rms - ddim_pool_representatives  class_entropy                mean=+0.05242 min=+0.00790 max=+0.08272 favorable=10/10
+===== CONF model 43
+ddim                       n=5 pixel_knn=0.3726±0.0043 feature_k=8.9520±0.1735 pixel_sup=33.9610±1.8328 feature_s=27.2397±1.6618 class_cov=10.0000±0.0000 class_ent=2.2691±0.0108 output_co=128.0000±0.0000 nfe=6400.0000±0.0000
+matched_ddim               n=5 pixel_knn=0.3763±0.0042 feature_k=9.0276±0.1479 pixel_sup=32.8301±1.7636 feature_s=26.4727±1.8782 class_cov=10.0000±0.0000 class_ent=2.2797±0.0093 output_co=268.0000±0.0000 nfe=13400.0000±0.0000
+ddim_105                   n=5 pixel_knn=0.3731±0.0042 feature_k=8.9298±0.1651 pixel_sup=33.8541±1.7773 feature_s=27.5428±1.6068 class_cov=10.0000±0.0000 class_ent=2.2687±0.0109 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+low_noise_only             n=5 pixel_knn=0.3720±0.0045 feature_k=8.9820±0.1803 pixel_sup=34.2546±1.8361 feature_s=27.1089±1.6070 class_cov=10.0000±0.0000 class_ent=2.2671±0.0135 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+ddim_pool_representatives  n=5 pixel_knn=0.4133±0.0035 feature_k=9.6907±0.1466 pixel_sup=22.0372±0.8850 feature_s=21.2790±1.5714 class_cov=10.0000±0.0000 class_ent=2.2022±0.0152 output_co=128.0000±0.0000 nfe=13400.0000±0.0000
+rms_v3f2                   n=5 pixel_knn=0.3088±0.0030 feature_k=7.0889±0.0690 pixel_sup=55.6910±1.2993 feature_s=48.9410±0.8112 class_cov=10.0000±0.0000 class_ent=2.2611±0.0125 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+   rms - ddim                       pixel_knn_mean               mean=-0.06384 min=-0.06594 max=-0.05950 favorable=5/5
+   rms - ddim                       feature_knn_mean             mean=-1.86307 min=-2.06242 max=-1.58689 favorable=5/5
+   rms - ddim                       pixel_support_percentile     mean=+21.72997 min=+20.81146 max=+23.07549 favorable=5/5
+   rms - ddim                       feature_support_percentile   mean=+21.70135 min=+19.55872 max=+23.97232 favorable=5/5
+   rms - ddim                       class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - ddim                       class_entropy                mean=-0.00798 min=-0.02767 max=+0.00500 favorable=1/5
+   rms - matched_ddim               pixel_knn_mean               mean=-0.06751 min=-0.07520 max=-0.06396 favorable=5/5
+   rms - matched_ddim               feature_knn_mean             mean=-1.93868 min=-2.22987 max=-1.70098 favorable=5/5
+   rms - matched_ddim               pixel_support_percentile     mean=+22.86086 min=+21.28784 max=+25.03348 favorable=5/5
+   rms - matched_ddim               feature_support_percentile   mean=+22.46833 min=+20.53506 max=+26.39660 favorable=5/5
+   rms - matched_ddim               class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - matched_ddim               class_entropy                mean=-0.01859 min=-0.04647 max=-0.00135 favorable=0/5
+   rms - ddim_105                   pixel_knn_mean               mean=-0.06429 min=-0.06626 max=-0.06012 favorable=5/5
+   rms - ddim_105                   feature_knn_mean             mean=-1.84091 min=-2.01173 max=-1.56118 favorable=5/5
+   rms - ddim_105                   pixel_support_percentile     mean=+21.83693 min=+20.82291 max=+23.14491 favorable=5/5
+   rms - ddim_105                   feature_support_percentile   mean=+21.39824 min=+19.19174 max=+23.91891 favorable=5/5
+   rms - ddim_105                   class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - ddim_105                   class_entropy                mean=-0.00762 min=-0.02586 max=+0.00500 favorable=1/5
+   rms - low_noise_only             pixel_knn_mean               mean=-0.06320 min=-0.06507 max=-0.05828 favorable=5/5
+   rms - low_noise_only             feature_knn_mean             mean=-1.89310 min=-2.09331 max=-1.59033 favorable=5/5
+   rms - low_noise_only             pixel_support_percentile     mean=+21.43639 min=+20.49713 max=+22.70088 favorable=5/5
+   rms - low_noise_only             feature_support_percentile   mean=+21.83212 min=+19.57855 max=+24.12415 favorable=5/5
+   rms - low_noise_only             class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - low_noise_only             class_entropy                mean=-0.00603 min=-0.02767 max=+0.01330 favorable=2/5
+   rms - ddim_pool_representatives  pixel_knn_mean               mean=-0.10458 min=-0.11055 max=-0.09917 favorable=5/5
+   rms - ddim_pool_representatives  feature_knn_mean             mean=-2.60180 min=-2.84690 max=-2.33423 favorable=5/5
+   rms - ddim_pool_representatives  pixel_support_percentile     mean=+33.65379 min=+32.37000 max=+35.11200 favorable=5/5
+   rms - ddim_pool_representatives  feature_support_percentile   mean=+27.66205 min=+25.98877 max=+31.51321 favorable=5/5
+   rms - ddim_pool_representatives  class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - ddim_pool_representatives  class_entropy                mean=+0.05884 min=+0.03762 max=+0.08272 favorable=5/5
+===== CONF model 44
+ddim                       n=5 pixel_knn=0.3775±0.0058 feature_k=8.9316±0.2350 pixel_sup=32.9257±2.1565 feature_s=27.7591±2.3799 class_cov=10.0000±0.0000 class_ent=2.2437±0.0190 output_co=128.0000±0.0000 nfe=6400.0000±0.0000
+matched_ddim               n=5 pixel_knn=0.3838±0.0056 feature_k=9.1191±0.1784 pixel_sup=30.9047±2.1572 feature_s=26.4261±1.9306 class_cov=10.0000±0.0000 class_ent=2.2580±0.0098 output_co=268.0000±0.0000 nfe=13400.0000±0.0000
+ddim_105                   n=5 pixel_knn=0.3770±0.0060 feature_k=8.8831±0.2196 pixel_sup=33.1400±2.2219 feature_s=28.1978±2.2962 class_cov=10.0000±0.0000 class_ent=2.2450±0.0203 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+low_noise_only             n=5 pixel_knn=0.3751±0.0058 feature_k=8.9614±0.2397 pixel_sup=33.8033±2.1985 feature_s=27.6775±2.3487 class_cov=10.0000±0.0000 class_ent=2.2428±0.0257 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+ddim_pool_representatives  n=5 pixel_knn=0.4184±0.0010 feature_k=9.7945±0.1767 pixel_sup=21.2514±0.2915 feature_s=21.2245±1.7689 class_cov=10.0000±0.0000 class_ent=2.1958±0.0223 output_co=128.0000±0.0000 nfe=13400.0000±0.0000
+rms_v3f2                   n=5 pixel_knn=0.3127±0.0053 feature_k=7.0045±0.1840 pixel_sup=55.2350±1.7381 feature_s=50.4358±1.9689 class_cov=10.0000±0.0000 class_ent=2.2418±0.0117 output_co=128.0000±0.0000 nfe=13440.0000±0.0000
+   rms - ddim                       pixel_knn_mean               mean=-0.06487 min=-0.06711 max=-0.06281 favorable=5/5
+   rms - ddim                       feature_knn_mean             mean=-1.92711 min=-2.34729 max=-1.64864 favorable=5/5
+   rms - ddim                       pixel_support_percentile     mean=+22.30927 min=+21.37909 max=+23.29178 favorable=5/5
+   rms - ddim                       feature_support_percentile   mean=+22.67670 min=+19.61136 max=+27.24991 favorable=5/5
+   rms - ddim                       class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - ddim                       class_entropy                mean=-0.00191 min=-0.01690 max=+0.00803 favorable=3/5
+   rms - matched_ddim               pixel_knn_mean               mean=-0.07118 min=-0.07678 max=-0.06716 favorable=5/5
+   rms - matched_ddim               feature_knn_mean             mean=-2.11454 min=-2.45330 max=-1.74896 favorable=5/5
+   rms - matched_ddim               pixel_support_percentile     mean=+24.33024 min=+21.92336 max=+26.18446 favorable=5/5
+   rms - matched_ddim               feature_support_percentile   mean=+24.00965 min=+19.79408 max=+28.00005 favorable=5/5
+   rms - matched_ddim               class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - matched_ddim               class_entropy                mean=-0.01612 min=-0.03026 max=-0.00228 favorable=0/5
+   rms - ddim_105                   pixel_knn_mean               mean=-0.06431 min=-0.06574 max=-0.06261 favorable=5/5
+   rms - ddim_105                   feature_knn_mean             mean=-1.87860 min=-2.26401 max=-1.58831 favorable=5/5
+   rms - ddim_105                   pixel_support_percentile     mean=+22.09503 min=+21.03958 max=+22.75543 favorable=5/5
+   rms - ddim_105                   feature_support_percentile   mean=+22.23801 min=+19.27032 max=+26.58310 favorable=5/5
+   rms - ddim_105                   class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - ddim_105                   class_entropy                mean=-0.00314 min=-0.01953 max=+0.00803 favorable=3/5
+   rms - low_noise_only             pixel_knn_mean               mean=-0.06246 min=-0.06500 max=-0.06060 favorable=5/5
+   rms - low_noise_only             feature_knn_mean             mean=-1.95692 min=-2.38293 max=-1.69086 favorable=5/5
+   rms - low_noise_only             pixel_support_percentile     mean=+21.43173 min=+20.33615 max=+22.51434 favorable=5/5
+   rms - low_noise_only             feature_support_percentile   mean=+22.75833 min=+19.39163 max=+27.20718 favorable=5/5
+   rms - low_noise_only             class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - low_noise_only             class_entropy                mean=-0.00098 min=-0.02044 max=+0.01740 favorable=3/5
+   rms - ddim_pool_representatives  pixel_knn_mean               mean=-0.10574 min=-0.11332 max=-0.09680 favorable=5/5
+   rms - ddim_pool_representatives  feature_knn_mean             mean=-2.78999 min=-3.08113 max=-2.47520 favorable=5/5
+   rms - ddim_pool_representatives  pixel_support_percentile     mean=+33.98354 min=+31.23856 max=+35.93826 favorable=5/5
+   rms - ddim_pool_representatives  feature_support_percentile   mean=+29.21127 min=+25.63934 max=+32.44705 favorable=5/5
+   rms - ddim_pool_representatives  class_coverage               mean=+0.00000 min=+0.00000 max=+0.00000 favorable=0/5
+   rms - ddim_pool_representatives  class_entropy                mean=+0.04599 min=+0.00790 max=+0.07966 favorable=5/5

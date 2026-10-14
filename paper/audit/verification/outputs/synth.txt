@@ -1,0 +1,22 @@
+runs 270
+==== dim 10 runs 90 mixtures 30 eps 2.0
+ddim_same_particles_raw  recall 0.837 sd_run 0.189 sd_model 0.165 | SE 1.612 sd_run 0.558 sd_model 0.444 | nf 150.0 sd_model 0.0 | F1 0.389 | full-cov runs 44/90 SE_full 1.2949
+ddim_equal_nfe_raw       recall 0.913 sd_run 0.133 sd_model 0.110 | SE 1.388 sd_run 0.346 sd_model 0.298 | nf 372.9 sd_model 26.1 | F1 0.391 | full-cov runs 57/90 SE_full 1.2420
+v3f2_learned             recall 0.886 sd_run 0.128 sd_model 0.130 | SE 1.225 sd_run 0.603 sd_model 0.489 | nf 4.7 sd_model 1.9 | F1 0.881 | full-cov runs 48/90 SE_full 0.9041
+v3f2_exact               recall 0.995 sd_run 0.030 sd_model 0.017 | SE 0.103 sd_run 0.548 sd_model 0.309 | nf 4.6 sd_model 1.8 | F1 0.993 | full-cov runs 87/90 SE_full 0.0046
+   costs {'ddim_same_particles_neural_nfe': 7500, 'v3f2_learned_search_neural_nfe': 11164.1, 'v3f2_learned_total_neural_nfe': 18664.1, 'v3f2_exact_neural_nfe_for_shared_starts': 7500, 'v3f2_exact_analytic_score_evaluations': 11563.7, 'ddim_equal_nfe_n_samples': 372.9, 'ddim_equal_nfe_actual_neural_nfe': 18647.2}
+   params 1 {'n_particles': 150, 'ddim_steps': 50, 'ddim_transitions': 50, 'timesteps': [800, 600, 400, 300, 200, 150, 100, 70, 50, 30, 15, 5, 0], 'step_size': 0.08, 'ascent_steps': 10, 'refine_steps': 100, 'refine_step_scale': 0.1, 'normalize_score': True, 'merge_factor': 1.0, 'merge_radius_min': 0.2, 'baseline_merge_radius': 1.0}
+==== dim 30 runs 90 mixtures 30 eps 3.5
+ddim_same_particles_raw  recall 0.593 sd_run 0.244 sd_model 0.233 | SE 4.088 sd_run 2.141 sd_model 1.838 | nf 150.0 sd_model 0.0 | F1 0.339 | full-cov runs 14/90 SE_full 2.5727
+ddim_equal_nfe_raw       recall 0.671 sd_run 0.231 sd_model 0.223 | SE 3.381 sd_run 1.172 sd_model 1.169 | nf 534.8 sd_model 41.2 | F1 0.349 | full-cov runs 21/90 SE_full 2.5321
+v3f2_learned             recall 0.943 sd_run 0.103 sd_model 0.097 | SE 2.689 sd_run 2.303 sd_model 1.974 | nf 20.5 sd_model 13.5 | F1 0.883 | full-cov runs 65/90 SE_full 1.7494
+v3f2_exact               recall 0.972 sd_run 0.072 sd_model 0.059 | SE 0.877 sd_run 2.338 sd_model 1.942 | nf 7.7 sd_model 3.8 | F1 0.912 | full-cov runs 77/90 SE_full 0.0118
+   costs {'ddim_same_particles_neural_nfe': 7500, 'v3f2_learned_search_neural_nfe': 19262.7, 'v3f2_learned_total_neural_nfe': 26762.7, 'v3f2_exact_neural_nfe_for_shared_starts': 7500, 'v3f2_exact_analytic_score_evaluations': 18418.4, 'ddim_equal_nfe_n_samples': 534.8, 'ddim_equal_nfe_actual_neural_nfe': 26740}
+   params 1 {'n_particles': 150, 'ddim_steps': 50, 'ddim_transitions': 50, 'timesteps': [800, 600, 400, 300, 200, 150, 100, 70, 50, 30, 15, 5, 0], 'step_size': 0.08, 'ascent_steps': 10, 'refine_steps': 100, 'refine_step_scale': 0.1, 'normalize_score': True, 'merge_factor': 1.0, 'merge_radius_min': 0.2, 'baseline_merge_radius': 1.0}
+==== dim 50 runs 90 mixtures 30 eps 4.5
+ddim_same_particles_raw  recall 0.470 sd_run 0.274 sd_model 0.257 | SE 5.817 sd_run 2.659 sd_model 2.574 | nf 150.0 sd_model 0.0 | F1 0.213 | full-cov runs 13/90 SE_full 3.5915
+ddim_equal_nfe_raw       recall 0.563 sd_run 0.255 sd_model 0.238 | SE 5.048 sd_run 2.090 sd_model 2.100 | nf 714.4 sd_model 69.5 | F1 0.215 | full-cov runs 15/90 SE_full 3.5663
+v3f2_learned             recall 0.956 sd_run 0.090 sd_model 0.083 | SE 3.170 sd_run 2.798 sd_model 2.700 | nf 77.8 sd_model 35.1 | F1 0.880 | full-cov runs 70/90 SE_full 1.9087
+v3f2_exact               recall 0.966 sd_run 0.070 sd_model 0.065 | SE 1.257 sd_run 2.812 sd_model 2.694 | nf 36.9 sd_model 20.9 | F1 0.853 | full-cov runs 72/90 SE_full 0.0280
+   costs {'ddim_same_particles_neural_nfe': 7500, 'v3f2_learned_search_neural_nfe': 28243.8, 'v3f2_learned_total_neural_nfe': 35743.8, 'v3f2_exact_neural_nfe_for_shared_starts': 7500, 'v3f2_exact_analytic_score_evaluations': 25608.6, 'ddim_equal_nfe_n_samples': 714.4, 'ddim_equal_nfe_actual_neural_nfe': 35721.7}
+   params 1 {'n_particles': 150, 'ddim_steps': 50, 'ddim_transitions': 50, 'timesteps': [800, 600, 400, 300, 200, 150, 100, 70, 50, 30, 15, 5, 0], 'step_size': 0.08, 'ascent_steps': 10, 'refine_steps': 100, 'refine_step_scale': 0.1, 'normalize_score': True, 'merge_factor': 1.0, 'merge_radius_min': 0.2, 'baseline_merge_radius': 1.0}

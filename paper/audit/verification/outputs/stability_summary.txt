@@ -1,0 +1,16 @@
+pilot m42 s0-2 stability_v2_rms 0.02 runs 3 median_rho mean 0.377 range [0.374,0.380] min frac rho<1 1.0000 drift mean 0.0065 range [0.0065,0.0066] min valid 1.0
+pilot m42 s0-2 stability_v2_rms 0.05 runs 3 median_rho mean 0.530 range [0.527,0.533] min frac rho<1 1.0000 drift mean 0.0065 range [0.0065,0.0066] min valid 1.0
+pilot m42 s0-2 stability_v2_ddim 0.02 runs 3 median_rho mean 0.531 range [0.528,0.535] min frac rho<1 1.0000 drift mean 0.0163 range [0.0161,0.0166] min valid 1.0
+pilot m42 s0-2 stability_v2_ddim 0.05 runs 3 median_rho mean 0.617 range [0.607,0.621] min frac rho<1 1.0000 drift mean 0.0163 range [0.0161,0.0166] min valid 1.0
+confirmation m43/44 s0-4 stability_v2_rms 0.02 runs 10 median_rho mean 0.423 range [0.416,0.430] min frac rho<1 1.0000 drift mean 0.0065 range [0.0061,0.0070] min valid 1.0
+confirmation m43/44 s0-4 stability_v2_rms 0.05 runs 10 median_rho mean 0.585 range [0.566,0.604] min frac rho<1 1.0000 drift mean 0.0065 range [0.0061,0.0070] min valid 1.0
+confirmation m43/44 s0-4 stability_v2_ddim 0.02 runs 10 median_rho mean 0.539 range [0.521,0.560] min frac rho<1 1.0000 drift mean 0.0145 range [0.0129,0.0160] min valid 1.0
+confirmation m43/44 s0-4 stability_v2_ddim 0.05 runs 10 median_rho mean 0.650 range [0.613,0.694] min frac rho<1 1.0000 drift mean 0.0145 range [0.0129,0.0160] min valid 1.0
+mnist_controls stability_v2_rms 0.02 actual delta0 median 0.0172 min 0.0156 n 768
+mnist_controls stability_v2_rms 0.05 actual delta0 median 0.0383 min 0.0353 n 768
+mnist_controls stability_v2_ddim 0.02 actual delta0 median 0.0166 min 0.0146 n 768
+mnist_controls stability_v2_ddim 0.05 actual delta0 median 0.0386 min 0.0346 n 768
+mnist_controls_confirmation stability_v2_rms 0.02 actual delta0 median 0.0156 min 0.0141 n 2560
+mnist_controls_confirmation stability_v2_rms 0.05 actual delta0 median 0.0373 min 0.0334 n 2560
+mnist_controls_confirmation stability_v2_ddim 0.02 actual delta0 median 0.0155 min 0.0135 n 2560
+mnist_controls_confirmation stability_v2_ddim 0.05 actual delta0 median 0.0379 min 0.0329 n 2560

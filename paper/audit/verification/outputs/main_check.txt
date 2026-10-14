@@ -1,0 +1,50 @@
+rows 210 incomplete methods 0
+P 64 [(42, 0), (42, 1), (42, 2), (42, 3), (42, 4), (43, 0), (43, 1), (43, 2), (43, 3), (43, 4), (44, 0), (44, 1), (44, 2), (44, 3), (44, 4)]
+P 128 [(42, 0), (42, 1), (42, 2), (42, 3), (42, 4), (43, 0), (43, 1), (43, 2), (43, 3), (43, 4), (44, 0), (44, 1), (44, 2), (44, 3), (44, 4)]
+==== P 128
+ddim 15
+    pixel_knn_distance=0.38458±0.0148(n15); feature_knn_distance=9.1099±0.303(n15); pixel_support_percentile=30.583±4.53(n15); feature_support_percentile=25.905±2.85(n15); represented_class_count=10±0(n15); class_entropy=2.2517±0.0195(n15); stability_return_rate=0.082161±0.0617(n15); candidate_count=128±0(n15); nfe=6400±0(n15); clipping_fraction_mean=0±0(n15); fraction_unusually_close_train=0±0(n15); train_test_gap_percentile=59.723±2.69(n15); mean_confidence=0.92313±0.0145(n15)
+matched_ddim 15
+    pixel_knn_distance=0.38971±0.0151(n15); feature_knn_distance=9.2364±0.286(n15); pixel_support_percentile=29.033±4.53(n15); feature_support_percentile=24.875±2.84(n15); represented_class_count=10±0(n15); class_entropy=2.2624±0.0157(n15); stability_return_rate=0.081032±0.0584(n15); candidate_count=268±0(n15); nfe=13400±0(n15); clipping_fraction_mean=0±0(n15); fraction_unusually_close_train=0.00099502±0.00221(n15); train_test_gap_percentile=60.434±1.53(n15); mean_confidence=0.92347±0.0085(n15)
+original_v3f2 15
+    pixel_knn_distance=0.37987±0.0151(n15); feature_knn_distance=9.0347±0.297(n15); pixel_support_percentile=32.019±4.7(n15); feature_support_percentile=26.537±2.85(n15); represented_class_count=10±0(n15); class_entropy=2.2522±0.02(n15); candidate_count=128±0(n15); nfe=13440±0(n15); clipping_fraction_mean=1.2369e-05±1.14e-05(n15); fraction_unusually_close_train=0.0010417±0.00275(n15); train_test_gap_percentile=59.504±2.77(n15); mean_confidence=0.92429±0.0141(n15)
+rms_v3f2 15
+    pixel_knn_distance=0.32038±0.0149(n15); feature_knn_distance=7.2769±0.369(n15); pixel_support_percentile=52.368±4.83(n15); feature_support_percentile=47.124±4.08(n15); represented_class_count=10±0(n15); class_entropy=2.253±0.0172(n15); stability_return_rate=0.99388±0.00738(n15); candidate_count=128±0(n15); nfe=13440±0(n15); clipping_fraction_mean=0.077967±0.0288(n15); fraction_unusually_close_train=0.031771±0.0149(n15); train_test_gap_percentile=55.03±2.29(n15); mean_confidence=0.95309±0.0167(n15)
+rms_v3f2_merge 15
+    pixel_knn_distance=0.35435±0.0146(n15); feature_knn_distance=7.9572±0.494(n15); pixel_support_percentile=42.225±5.02(n15); feature_support_percentile=41.125±4.62(n15); represented_class_count=9.8±0.414(n15); class_entropy=2.1742±0.0561(n15); stability_return_rate=0.99801±0.00479(n15); candidate_count=33.6±6.93(n15); nfe=13440±0(n15); clipping_fraction_mean=0.077967±0.0288(n15); fraction_unusually_close_train=0.013962±0.0166(n15); train_test_gap_percentile=51.685±5.77(n15); mean_confidence=0.94672±0.0265(n15)
+ddim_cluster 15
+    pixel_knn_distance=0.41438±0.0135(n15); feature_knn_distance=9.7035±0.426(n15); pixel_support_percentile=23.354±4.01(n15); feature_support_percentile=21.761±3.11(n15); represented_class_count=9.9333±0.258(n15); class_entropy=2.168±0.0376(n15); candidate_count=43.333±6.85(n15); nfe=6400±0(n15); clipping_fraction_mean=0±0(n15); fraction_unusually_close_train=0±0(n15); train_test_gap_percentile=59.322±4.65(n15); mean_confidence=0.92794±0.0204(n15)
+matched_cluster 15
+    pixel_knn_distance=0.42004±0.0146(n15); feature_knn_distance=9.7973±0.389(n15); pixel_support_percentile=21.895±3.93(n15); feature_support_percentile=21.299±2.9(n15); represented_class_count=10±0(n15); class_entropy=2.1988±0.0263(n15); candidate_count=80.533±12(n15); nfe=13400±0(n15); clipping_fraction_mean=0±0(n15); fraction_unusually_close_train=0.00098039±0.0038(n15); train_test_gap_percentile=58.807±2.29(n15); mean_confidence=0.92204±0.014(n15)
+==== P 64
+ddim 15
+    pixel_knn_distance=0.38689±0.0144(n15); feature_knn_distance=9.1825±0.331(n15); pixel_support_percentile=30.145±4.26(n15); feature_support_percentile=25.423±3.56(n15); represented_class_count=10±0(n15); class_entropy=2.2038±0.0387(n15); stability_return_rate=0.083073±0.0665(n15); candidate_count=64±0(n15); nfe=3200±0(n15); clipping_fraction_mean=0±0(n15); fraction_unusually_close_train=0±0(n15); train_test_gap_percentile=58.327±3.85(n15); mean_confidence=0.92398±0.0164(n15)
+matched_ddim 15
+    pixel_knn_distance=0.38547±0.0143(n15); feature_knn_distance=9.1376±0.294(n15); pixel_support_percentile=30.224±4.37(n15); feature_support_percentile=25.611±2.65(n15); represented_class_count=10±0(n15); class_entropy=2.2522±0.019(n15); stability_return_rate=0.081468±0.0616(n15); candidate_count=134±0(n15); nfe=6700±0(n15); clipping_fraction_mean=0±0(n15); fraction_unusually_close_train=0±0(n15); train_test_gap_percentile=59.712±2.57(n15); mean_confidence=0.92216±0.0146(n15)
+original_v3f2 15
+    pixel_knn_distance=0.38215±0.0147(n15); feature_knn_distance=9.1084±0.332(n15); pixel_support_percentile=31.592±4.4(n15); feature_support_percentile=26.026±3.59(n15); represented_class_count=10±0(n15); class_entropy=2.2031±0.0398(n15); candidate_count=64±0(n15); nfe=6720±0(n15); clipping_fraction_mean=1.2369e-05±1.56e-05(n15); fraction_unusually_close_train=0.0010417±0.00403(n15); train_test_gap_percentile=58.077±3.96(n15); mean_confidence=0.92542±0.0162(n15)
+rms_v3f2 15
+    pixel_knn_distance=0.32438±0.0168(n15); feature_knn_distance=7.3796±0.363(n15); pixel_support_percentile=51.044±5.31(n15); feature_support_percentile=46.092±4.48(n15); represented_class_count=10±0(n15); class_entropy=2.2015±0.0371(n15); stability_return_rate=0.99401±0.00751(n15); candidate_count=64±0(n15); nfe=6720±0(n15); clipping_fraction_mean=0.077792±0.0289(n15); fraction_unusually_close_train=0.03125±0.0221(n15); train_test_gap_percentile=54.68±3.07(n15); mean_confidence=0.94855±0.0209(n15)
+rms_v3f2_merge 15
+    pixel_knn_distance=0.35294±0.0138(n15); feature_knn_distance=7.8498±0.547(n15); pixel_support_percentile=42.728±4.51(n15); feature_support_percentile=41.477±5.2(n15); represented_class_count=8.8667±0.915(n15); class_entropy=2.044±0.101(n15); stability_return_rate=0.9966±0.00844(n15); candidate_count=21.267±4.27(n15); nfe=6720±0(n15); clipping_fraction_mean=0.077792±0.0289(n15); fraction_unusually_close_train=0.016298±0.0209(n15); train_test_gap_percentile=53.278±5.64(n15); mean_confidence=0.95413±0.0341(n15)
+ddim_cluster 15
+    pixel_knn_distance=0.41191±0.0167(n15); feature_knn_distance=9.6523±0.509(n15); pixel_support_percentile=24.084±5.17(n15); feature_support_percentile=22.362±4.68(n15); represented_class_count=9.4±0.507(n15); class_entropy=2.0961±0.0759(n15); candidate_count=26.6±3.91(n15); nfe=3200±0(n15); clipping_fraction_mean=0±0(n15); fraction_unusually_close_train=0±0(n15); train_test_gap_percentile=56.937±3.99(n15); mean_confidence=0.9224±0.028(n15)
+matched_cluster 15
+    pixel_knn_distance=0.41464±0.0123(n15); feature_knn_distance=9.7452±0.422(n15); pixel_support_percentile=23.209±3.68(n15); feature_support_percentile=21.364±3.13(n15); represented_class_count=9.9333±0.258(n15); class_entropy=2.1835±0.0387(n15); candidate_count=44.4±6.57(n15); nfe=6700±0(n15); clipping_fraction_mean=0±0(n15); fraction_unusually_close_train=0±0(n15); train_test_gap_percentile=59.259±3.45(n15); mean_confidence=0.92314±0.0195(n15)
+==== per-model P128 pixel/feature rms vs matched
+42 matched_ddim 5 0.409 9.5625
+42 rms_v3f2 5 0.3397 7.7373
+43 matched_ddim 5 0.3763 9.0276
+43 rms_v3f2 5 0.3088 7.0889
+44 matched_ddim 5 0.3838 9.1191
+44 rms_v3f2 5 0.3127 7.0045
+==== paired rms - matched, P128
+pixel_knn_distance mean -0.06933 min -0.07678 max -0.06209 favorable 15 / 15
+feature_knn_distance mean -1.9595 min -2.4533 max -1.48045 favorable 15 / 15
+pixel_support_percentile mean 23.33439 min 20.64183 max 26.18446 favorable 15 / 15
+feature_support_percentile mean 22.24912 min 17.47367 max 28.00005 favorable 15 / 15
+rms_v3f2 [(13440, 6400, 7040, None, 128)]
+matched_ddim [(13400, 13400, 0, 268, 268)]
+original_v3f2 [(13440, 6400, 7040, None, 128)]
+ddim [(6400, 6400, 0, None, 128)]
+git {"{'commit': '2535b225b5c577f23197661644df681b1808ff96', 'dirty': True}"}
