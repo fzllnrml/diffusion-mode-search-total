@@ -1,0 +1,14 @@
+('rms_alpha', 'original', 0.003, None, 42, 64) n 2 seeds [0, 1] pix 0.3987 feat 9.369 cand 64.0 cls 10.0
+('rms_alpha', 'original', 0.005, None, 42, 64) n 2 seeds [0, 1] pix 0.3952 feat 9.315 cand 64.0 cls 10.0
+('rms_alpha', 'original', 0.01, None, 42, 64) n 2 seeds [0, 1] pix 0.3852 feat 9.068 cand 64.0 cls 10.0
+('rms_alpha', 'original', 0.02, None, 42, 64) n 2 seeds [0, 1] pix 0.3718 feat 8.632 cand 64.0 cls 10.0
+('rms_alpha', 'original', 0.03, None, 42, 64) n 2 seeds [0, 1] pix 0.3501 feat 7.895 cand 64.0 cls 10.0
+('rms_baseline', 'ddim', 0.01, None, 42, 64) n 2 seeds [0, 1] pix 0.4072 feat 9.476 cand 64.0 cls 10.0
+('rms_merge', 'ddim_cluster', 0.01, 0.45, 42, 64) n 2 seeds [0, 1] pix 0.4126 feat 9.604 cand 61.0 cls 10.0
+('rms_merge', 'ddim_cluster', 0.01, 0.55, 42, 64) n 2 seeds [0, 1] pix 0.4248 feat 9.948 cand 49.5 cls 10.0
+('rms_merge', 'ddim_cluster', 0.01, 0.65, 42, 64) n 2 seeds [0, 1] pix 0.4235 feat 9.797 cand 31.0 cls 9.5
+('rms_merge', 'ddim_cluster', 0.01, 0.75, 42, 64) n 2 seeds [0, 1] pix 0.4171 feat 9.760 cand 15.5 cls 7.5
+('rms_merge', 'original', 0.01, 0.45, 42, 64) n 2 seeds [0, 1] pix 0.3910 feat 9.240 cand 60.5 cls 10.0
+('rms_merge', 'original', 0.01, 0.55, 42, 64) n 2 seeds [0, 1] pix 0.4040 feat 9.609 cand 46.0 cls 10.0
+('rms_merge', 'original', 0.01, 0.65, 42, 64) n 2 seeds [0, 1] pix 0.4015 feat 9.434 cand 28.5 cls 9.0
+('rms_merge', 'original', 0.01, 0.75, 42, 64) n 2 seeds [0, 1] pix 0.3966 feat 9.059 cand 14.5 cls 7.0
